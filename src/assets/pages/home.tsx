@@ -82,7 +82,7 @@ const home = () => {
         </div>
 
         <section
-          className="bg-gray-100 my-20 py-20 bg-fixed bg-contain h-screen content-center"
+          className="my-20 py-20 bg-fixed bg-contain md:h-screen content-center"
           style={{
             backgroundImage: `url(${BG})`,
           }}
@@ -102,27 +102,27 @@ const home = () => {
             <div className="container mx-auto grid gap-4">
               <a
                 href="#"
-                className="p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Branding
                 <GoArrowUpRight />
               </a>
               <a
                 href="#"
-                className="p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Desenvolvimento <GoArrowUpRight />
               </a>
               <a
                 href="#"
-                className="p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Design
                 <GoArrowUpRight />
               </a>
               <a
                 href="#"
-                className="p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+                className=" hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Audiovisual
                 <GoArrowUpRight />
