@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App'
 import Teucard from './assets/cases/teucard'
+import Gonbank from './assets/cases/gonbank'
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: "/cases/teucard",
     element: <Teucard />
+  },
+  {
+    path: "/cases/gonbank",
+    element: <Gonbank />
   }
 ])
 
