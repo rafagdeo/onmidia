@@ -45,7 +45,7 @@ const home: React.FC = () => {
       <ObserverProvider>
         <Header />
         <div
-          className="h-[750px] md:h-[600px] pt-20 md:pt-40 p-4 container mx-auto align-text-bottom content-center justify-center"
+          className="h-[650px] md:h-[750px] pt-20 md:pt-40 p-4 container mx-auto align-text-bottom content-center justify-center"
           style={{
             opacity: opacity,
             transform: `scale(${scale}) translateY(${scrollY / 2}px)`,
@@ -53,19 +53,19 @@ const home: React.FC = () => {
           }}
         >
           <h1 className="text-black font-bold text-6xl md:text-8xl uppercase pb-4">
-            more than an{' '}
+            more <br />than an <br />{' '}
             <span className="bg-gradient-to-r from-slate-900 to-indigo-600 bg-clip-text text-transparent">
               agency
             </span>
           </h1>
-          <div className="justify-between lg:flex w-full">
-            <div>
-              <p className="uppercase font-light">
-                Mais que uma agência, somos o parceiro para o <b className='font-bold uppercase underline'>futuro do seu
+          <div className="justify-between lg:flex">
+            <div className="grid gap-2 text-left h-28 md:h-52 content-end">
+              <p className="uppercase">
+                Mais que uma agência,<br/> somos o parceiro para o <br /><b className='font-bold uppercase underline'>futuro do seu
                 negócio</b>.
               </p>
             </div>
-            <div className="grid gap-2 text-right h-52 justify-end content-end">
+            <div className="grid gap-2 text-right h-28 md:h-52 justify-end content-end">
               <p>® since 2021</p>
               <span className="uppercase font-bold">BRAZIL, São Paulo</span>
               <span>{dateTime}</span>
@@ -78,7 +78,7 @@ const home: React.FC = () => {
         </div>
 
         {/*projetos*/}
-        <div className="p-4 mt-12 md:mt-24 space-y-8">
+        <div className="p-4 my-12 md:mt-24 space-y-8">
           <h2 className="text-black font-bold text-2xl md:text-3xl text-center uppercase intersect:motion-preset-slide-up motion-delay-0">
             Últimos projetos
           </h2>
@@ -86,7 +86,7 @@ const home: React.FC = () => {
         </div>
 
         <section
-          className="my-20 py-20 bg-fixed bg-contain md:h-screen content-center"
+          className="py-20 bg-fixed bg-contain md:h-screen content-center"
           style={{
             backgroundImage: `url(${BG})`,
           }}
@@ -105,7 +105,7 @@ const home: React.FC = () => {
                 Veja como podemos ajudar.
               </p>
             </div>
-            <div className="container mx-auto grid gap-4">
+            <div className="container mx-auto grid gap-20">
               <a
                 href="#"
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
@@ -137,7 +137,7 @@ const home: React.FC = () => {
           </div>
         </section>
 
-        <div className="container mx-auto py-20 p-4  h-screen justify-between grid">
+        <div className="container mx-auto py-20 p-4 h-[700px] justify-between grid">
           <div className="w-full md:w-2/4 space-y-8 flex-col">
             <span className="px-4 py-1 rounded-full border-gray-200 border text-lg md:text-sm">
               Processos
@@ -216,7 +216,7 @@ const home: React.FC = () => {
 
         <Carrossel />
 
-        <div className="my-36 w-full md:w-[750px] grid mx-auto text-center align-center content-center justify-center ">
+        <div className="my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
           <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
             Pronto para{' '}
             <span className="bg-gradient-to-r from-slate-900 to-indigo-600 bg-clip-text text-transparent">
@@ -229,7 +229,7 @@ const home: React.FC = () => {
           </h2>
           <a
             href="#"
-            className="text-xl text-center justify-center items-center flex gap-4 mt-6"
+            className=" font-light text-xl text-center justify-center items-center flex gap-4 mt-6"
           >
             DOWNLOAD <MdDownload />
           </a>

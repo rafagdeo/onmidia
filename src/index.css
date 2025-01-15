@@ -4,28 +4,59 @@
 
 @font-face {
   font-family: 'Neuething Sans Test';
-  src: url('https://fonts.cdnfonts.com/css/neuething-sans-test');
+  src: url('./assets/fonts/NeuethingSans-RegularExpanded.otf');
+  font-weight: 400;
 }
+
 @font-face {
-  font-family: 'Arimo';
-  src: url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+  font-family: 'Neuething Sans Test';
+  src: url('./assets/fonts/NeuethingSans-SemiBoldExpanded.otf');
+  font-weight: 600;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+@font-face {
+  font-family: 'Neuething Sans Test';
+  src: url('./assets/fonts/NeuethingSans-boldExpanded.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Neuething Sans Test';
+  src: url('./assets/fonts/NeuethingSans-ExtraBoldExpanded.otf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Neuething Sans Test';
+  src: url('./assets/fonts/NeuethingSans-BlackExpanded.otf');
+  font-weight: 900;
+}
+
+h1 {
   font-family: 'Neuething Sans Test', sans-serif;
+  font-weight: 900; /* Black */
 }
+
+h2 {
+  font-family: 'Neuething Sans Test', sans-serif;
+  font-weight: 800; /* ExtraBold */
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Neuething Sans Test', sans-serif;
+  font-weight: 600; /* SemiBold */
+}
+
 body {
-      font-family: 'Arimo', sans-serif;
-    }
-    a,
-    ul,
-    li {
-      font-family: 'Arimo', sans-serif;
-    }
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+a, ul, li {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
 svg {
   display: block;
 }

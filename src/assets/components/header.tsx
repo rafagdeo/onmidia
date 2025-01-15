@@ -8,8 +8,8 @@ const header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="t-0 z-20 fixed mb-12 bg-white flex p-4 w-full border-b border-gray-200">
-      <div className="container z-20 mx-auto flex items-center justify-between z-15">
+    <header className="t-0 z-20 fixed bg-white flex px-4 py-6 w-full">
+      <div className="container z-20 mx-auto flex items-center justify-between">
         <div className="logo">
           <a href="/">
             <img src="https://onmidiamkt.com.br/wp-content/uploads/2023/10/cropped-onmidia-logo.png" alt="logo__onmidia" className='h-[30px]'/>
@@ -26,7 +26,7 @@ const header = () => {
             <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
               <a href="">Team</a>
             </li>
-            <li className='px-4 py-1 rounded-xl bg-black text-white'>
+            <li className='px-4 py-1 rounded-full bg-black text-white'>
               <a href="">Contact</a>
             </li>
           </ul>
@@ -40,7 +40,7 @@ const header = () => {
         <RxHamburgerMenu />
       </button>
         {isMenuOpen && (
-          <div className="fixed z-20 top-16 bg-white w-full py-4 left-0 border-b border-gray-200 rounded-b-md shadow-md">
+          <div className="fixed z-20 top-14 bg-white w-full py-4 left-0 border-b border-gray-200 rounded-b-md shadow-md">
             <ul className="flex flex-col content-start justify-center w-full h-full space-y-2">
               <li className='p-2 hover:bg-purple-600 hover:text-white'>
                 <a href="">Home</a>

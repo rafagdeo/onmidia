@@ -9,6 +9,7 @@ import Img6 from '../images/viz/Prancheta 6.webp';
 import Img7 from '../images/viz/Prancheta 7.webp';
 import Img8 from '../images/viz/Prancheta 8.webp';
 import Img9 from '../images/viz/Prancheta 9.webp';
+import Img10 from '../images/viz/prancheta10.gif';
 
 const viz = () => {
   return (
@@ -22,10 +23,10 @@ const viz = () => {
       ></section>
       <section className="py-24 p-4 md:py-44 container mx-auto">
         <div className="grid gap-4">
-          <h1 className="text-3xl md:text-5xl font-bold uppercase">
-            Viz & Onmidia
+          <h1 className="text-3xl md:text-6xl font-bold uppercase">
+            Viz Delivery
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold uppercase">
+          <h2 className="text-xl md:text-3xl font-light uppercase">
             {' '}
             - Marca corporativa
           </h2>
@@ -73,6 +74,7 @@ const viz = () => {
         <img src={Img7} alt="" className='w-full'/>
         <img src={Img8} alt="" className='w-full'/>
         <img src={Img9} alt="" className='w-full'/>
+        <img src={Img10} alt="" className='w-full'/>
       </section>
 
       <section className="p-4 flex md:p-12">

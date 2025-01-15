@@ -23,10 +23,10 @@ const gonbank = () => {
       ></section>
       <section className="py-24 p-4 md:py-44 container mx-auto">
         <div className="grid gap-4">
-          <h1 className="text-3xl md:text-5xl font-bold uppercase">
-            GonBank & Onmidia
+          <h1 className="text-3xl md:text-6xl font-bold uppercase">
+            GonBank
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold uppercase">
+          <h2 className="text-xl md:text-3xl font-light uppercase">
             {' '}
             - Marca corporativa
           </h2>

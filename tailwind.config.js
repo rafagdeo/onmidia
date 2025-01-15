@@ -20,7 +20,11 @@ export default {
       },
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
-        slide: 'slide 10s linear infinite',
+        slide: 'slide 30s linear infinite',
+      },
+      fontWeight: {
+        normal: 400, 
+        bold: 800,   
       },
     },
   },
