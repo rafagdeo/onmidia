@@ -9,7 +9,6 @@ import Img6 from '../images/viz/Prancheta 6.webp';
 import Img7 from '../images/viz/Prancheta 7.webp';
 import Img8 from '../images/viz/Prancheta 8.webp';
 import Img9 from '../images/viz/Prancheta 9.webp';
-import Img10 from '../images/viz/prancheta10.gif';
 
 const viz = () => {
   return (
@@ -74,7 +73,6 @@ const viz = () => {
         <img src={Img7} alt="" className='w-full'/>
         <img src={Img8} alt="" className='w-full'/>
         <img src={Img9} alt="" className='w-full'/>
-        <img src={Img10} alt="" className='w-full'/>
       </section>
 
       <section className="p-4 flex md:p-12">
