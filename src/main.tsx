@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App'
 import Teucard from './assets/cases/teucard'
 import Gonbank from './assets/cases/gonbank'
+import Viz from './assets/cases/viz'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/cases/gonbank",
     element: <Gonbank />
+  },
+  {
+    path: "/cases/viz",
+    element: <Viz />  
   }
 ])
 

@@ -38,7 +38,7 @@ const gonbank = () => {
         <img src={Img9} alt="" />
         <img src={Img6} alt="" />
         <img src={Img10} alt="" />
-        <section className="py-32 flex gap-4 p-12">
+        <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
           </div>
@@ -77,11 +77,11 @@ const gonbank = () => {
         <video src={Img1} className="p-0" autoPlay muted loop></video>
       </section>
 
-      <section className="flex p-12">
-        <div className="container mx-auto ">
+      <section className="p-4 flex md:p-12">
+        <div className="container mx-auto">
           <h2 className="text-4xl font-bold uppercase">Time</h2>
         </div>
-        <div className="container mx-auto grid gap-4">
+        <div className="container mx-auto grid gap-4 md:gap-12">
           <div>
             <h3 className="font-bold text-2xl">Logo</h3>
             <p>Rafa Purgatto</p>
@@ -100,7 +100,7 @@ const gonbank = () => {
             <p>Fabrício Costa</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Desenvolvimento Web</h3>
+            <h3 className="font-bold text-2xl">Website</h3>
             <p>Rafa Purgatto</p>
           </div>
         </div>

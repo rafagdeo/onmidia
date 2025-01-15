@@ -28,8 +28,6 @@ body {
     }
 svg {
   display: block;
-  vertical-align: middle;
-  color: white;
 }
 svg:hover {
   color: #de6a07;
