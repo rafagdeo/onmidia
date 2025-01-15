@@ -1,8 +1,8 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Img1 from '../images/viz/Prancheta 1.webp';
+import Img0 from '../images/viz/Prancheta 0.gif';
 import Img2 from '../images/viz/Prancheta 2.webp';
-import Img3 from '../images/viz/Prancheta 3.webp';
+import Img3 from '../images/viz/Animação_Viz.gif';
 import Img4 from '../images/viz/Prancheta 4.webp';
 import Img5 from '../images/viz/Prancheta 5.webp';
 import Img6 from '../images/viz/Prancheta 6.webp';
@@ -17,7 +17,7 @@ const viz = () => {
       <section
         className="bg-gray-100 bg-cover bg-center h-80 md:h-screen content-center"
         style={{
-          backgroundImage: `url(${Img1})`,
+          backgroundImage: `url(${Img0})`,
         }}
       ></section>
       <section className="py-24 p-4 md:py-44 container mx-auto">

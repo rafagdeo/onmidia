@@ -13,9 +13,14 @@ export default {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+        slide: {
+          'from': {transform: 'translateX(0)'},
+          'to': {transform: 'translateX(-100%)'}
+        },
       },
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
+        slide: 'slide 10s linear infinite',
       },
     },
   },

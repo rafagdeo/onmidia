@@ -11,6 +11,8 @@ import Img31 from '../images/teucard/Prancheta 31.webp'
 import Img33 from '../images/teucard/Prancheta 33.webp'
 import Img34 from '../images/teucard/Prancheta 34.webp'
 import Img36 from '../images/teucard/Prancheta 36.webp'
+import Cartao from '../video/cartao_teucard.mp4'
+import Cartao2 from '../video/TeuCard.mov'
 
 
 const teucard = () => {
@@ -32,10 +34,12 @@ const teucard = () => {
       </section>
       <section className='w-full p-4 flex-wrap'>
         <img src={Img1} alt="" className='animation-fadeIn'/>
+        <video src={Cartao} className="p-0" autoPlay muted loop></video>
         <img src={Img24} alt="" className='animation-fadeIn'/>
         <img src={Img25} alt="" className='animation-fadeIn'/>
         <img src={Img26} alt="" className='animation-fadeIn'/>
         <img src={Img28} alt="" className='animation-fadeIn'/>
+        <video src={Cartao2} className="p-0" autoPlay muted loop></video>
         <img src={Img30} alt="" className='animation-fadeIn'/>
         <img src={Img31} alt="" className='animation-fadeIn'/>
         <img src={Img33} alt="" className='animation-fadeIn'/>

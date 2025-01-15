@@ -26,7 +26,7 @@ const header = () => {
             <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
               <a href="">Team</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
+            <li className='px-4 py-1 rounded-xl bg-black text-white'>
               <a href="">Contact</a>
             </li>
           </ul>
