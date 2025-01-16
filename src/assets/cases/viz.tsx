@@ -1,14 +1,5 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Img0 from '../images/viz/Prancheta 0.gif';
-import Img2 from '../images/viz/Prancheta 2.webp';
-import Img3 from '../images/viz/Animação_Viz.gif';
-import Img4 from '../images/viz/Prancheta 4.webp';
-import Img5 from '../images/viz/Prancheta 5.webp';
-import Img6 from '../images/viz/Prancheta 6.webp';
-import Img7 from '../images/viz/Prancheta 7.webp';
-import Img8 from '../images/viz/Prancheta 8.webp';
-import Img9 from '../images/viz/Prancheta 9.webp';
 
 const viz = () => {
   return (
@@ -17,26 +8,33 @@ const viz = () => {
       <section
         className="bg-gray-100 bg-cover bg-center h-80 md:h-screen content-center"
         style={{
-          backgroundImage: `url(${Img0})`,
+          backgroundImage: `url(https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-0.gif)`,
         }}
       ></section>
-      <section className="py-24 p-4 md:py-44 container mx-auto">
-        <div className="grid gap-4">
+      <section className="py-24 p-4 md:py-44 container flex justify-between mx-auto">
+        <div className="grid gap-8">
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             Viz Delivery
           </h1>
-          <h2 className="text-xl md:text-3xl font-light uppercase">
+          {/* <h2 className="text-xl md:text-3xl font-light uppercase">
             {' '}
             - Marca corporativa
-          </h2>
+          </h2> */}
+          <div className='flex-wrap flex gap-2 items-center'>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Strategy</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Development</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Design</span>
+                  </div>
         </div>
-        <div></div>
+        <div className='pt-4'>
+          <span className='text-2xl'>2025</span>
+        </div>
       </section>
       <section className="w-full p-4 flex-wrap">
-        <img src={Img2} alt="" className='w-full'/>
-        <img src={Img3} alt="" className='w-full'/>
-        <img src={Img4} alt="" className='w-full'/>
-        <img src={Img5} alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-2.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Viz.gif" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-4.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-5.webp" alt="" className='w-full'/>
         <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
@@ -69,10 +67,10 @@ const viz = () => {
             </p>
           </div>
         </section>
-        <img src={Img6} alt="" className='w-full'/>
-        <img src={Img7} alt="" className='w-full'/>
-        <img src={Img8} alt="" className='w-full'/>
-        <img src={Img9} alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-6.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-7.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-8.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-9.webp" alt="" className='w-full'/>
       </section>
 
       <section className="p-4 flex md:p-12">

@@ -1,15 +1,5 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Img1 from '../images/gonbank/GonBank_1.mov';
-import Img2 from '../images/gonbank/GonBank_2.gif';
-import Img3 from '../images/gonbank/GonBank_3.webp';
-import Img4 from '../images/gonbank/GonBank_4.webp';
-import Img5 from '../images/gonbank/GonBank_5.webp';
-import Img6 from '../images/gonbank/GonBank_6.webp';
-import Img7 from '../images/gonbank/GonBank_7.webp';
-import Img8 from '../images/gonbank/GonBank_8.webp';
-import Img9 from '../images/gonbank/GonBank_9.gif';
-import Img10 from '../images/gonbank/GonBank_10.gif';
 
 const gonbank = () => {
   return (
@@ -18,7 +8,7 @@ const gonbank = () => {
       <section
         className="bg-gray-100 bg-cover bg-center h-80 md:h-screen content-center"
         style={{
-          backgroundImage: `url(${Img2})`,
+          backgroundImage: `url(https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_2.gif)`,
         }}
       ></section>
       <section className="py-24 p-4 md:py-44 container mx-auto">
@@ -34,10 +24,10 @@ const gonbank = () => {
         <div></div>
       </section>
       <section className="w-full p-4 flex-wrap">
-        <img src={Img5} alt="" />
-        <img src={Img9} alt="" />
-        <img src={Img6} alt="" />
-        <img src={Img10} alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_5.webp" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_9.gif" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_6.webp" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_10.gif" alt="" />
         <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
@@ -70,11 +60,11 @@ const gonbank = () => {
             </p>
           </div>
         </section>
-        <img src={Img7} alt="" />
-        <img src={Img8} alt="" />
-        <img src={Img3} alt="" />
-        <img src={Img4} alt="" />
-        <video src={Img1} className="p-0" autoPlay muted loop></video>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_7.webp" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_8.webp" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_3.webp" alt="" />
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_4.webp" alt="" />
+        <video src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_1.mov" className="p-0" autoPlay muted loop></video>
       </section>
 
       <section className="p-4 flex md:p-12">

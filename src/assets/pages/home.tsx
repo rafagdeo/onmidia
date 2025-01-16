@@ -96,12 +96,12 @@ const home: React.FC = () => {
               <h2 className="text-4xl font-bold text-white uppercase animate-fadeIn">
                 O que fazemos
               </h2>
-              <p className="text-2xl font-medium animate-fadeIn">
+              <p className="text-xl animate-fadeIn">
                 Reunimos a expertise certa com o melhor uso da tecnologia para
                 criar experiências que moldam os relacionamentos das pessoas com
                 as marcas em todo o seu ecossistema.
               </p>
-              <p className="text-2xl font-medium animate-fadeIn">
+              <p className="text-xl font-medium animate-fadeIn">
                 Veja como podemos ajudar.
               </p>
             </div>
