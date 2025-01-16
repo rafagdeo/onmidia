@@ -3,11 +3,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa6";
 
-const footer = () => {
-  
-  const onSubmit = async (event) => {
+const Footer = () => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
 
     formData.append("access_key", '4a03c91e-3656-408d-82db-096776f69d0e');
 
@@ -32,25 +31,25 @@ const footer = () => {
     <div className="bg-[#232323] text-white py-20 px-4">
       <div className="container p-4 mx-auto grid md:grid-cols-4 gap-4 uppercase">
         <div className="text-xl space-y-2">
-            <h3 className="">São Paulo</h3>
-            <p className="text-sm">
-              R. Bom Sucesso, 220 - Cidade Mãe do Céu, São Paulo - SP, Sala 2207
-              e 2307 - CEP 03305-000
-            </p>
-            <div className="flex py-4 gap-4">
-              <a href="https://www.instagram.com/onmidiamkt/">
-                <FaInstagram />
-              </a>
-              <a href="https://www.linkedin.com/company/onmidiaoficial/?viewAsMember=true">
-                <FaLinkedinIn />
-              </a>
-              <a href="https://www.facebook.com/onmidiamkt">
-                <FaFacebookF />
-              </a>
-              <a href="https://www.behance.net/onmdiamkt">
-               <FaBehance />
-              </a>
-            </div>
+          <h3 className="">São Paulo</h3>
+          <p className="text-sm">
+            R. Bom Sucesso, 220 - Cidade Mãe do Céu, São Paulo - SP, Sala 2207
+            e 2307 - CEP 03305-000
+          </p>
+          <div className="flex py-4 gap-4">
+            <a href="https://www.instagram.com/onmidiamkt/">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/company/onmidiaoficial/?viewAsMember=true">
+              <FaLinkedinIn />
+            </a>
+            <a href="https://www.facebook.com/onmidiamkt">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.behance.net/onmdiamkt">
+              <FaBehance />
+            </a>
+          </div>
         </div>
         <div className="text-xl">
           <ul className="ml-0 space-y-2 grid md:ml-32">
@@ -106,14 +105,14 @@ const footer = () => {
         <div className="formulario">
           <form onSubmit={onSubmit} className="grid gap-2">
             <input
-            name="Nome"
+              name="Nome"
               type="text"
               placeholder="Nome"
               className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
               required
             />
             <input
-            name="Empresa"
+              name="Empresa"
               type="text"
               placeholder="Empresa"
               className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
@@ -133,7 +132,7 @@ const footer = () => {
               required
             />
             <textarea
-            name="Mensagem"
+              name="Mensagem"
               placeholder="Escreva sua mensagem"
               className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
               required
@@ -151,4 +150,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
