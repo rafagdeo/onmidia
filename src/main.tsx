@@ -5,7 +5,7 @@ import App from './App'
 import Teucard from './assets/cases/teucard'
 import Gonbank from './assets/cases/gonbank'
 import Viz from './assets/cases/viz'
-// import Giter from './assets/cases/giter'
+import Giter from './assets/cases/giter'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/cases/viz",
     element: <Viz />  
+  },
+  {
+    path: "/cases/giter",
+    element: <Giter />  
   }
 ])
 

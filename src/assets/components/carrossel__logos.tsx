@@ -1,30 +1,20 @@
-import bank from '../images/logos/@bank.webp';
-import agroboard from '../images/logos/agroboard.webp';
-import att from '../images/logos/att.webp';
-import ongroup from '../images/logos/ongroup.webp';
-import onpag from '../images/logos/onpag.webp';
-import radial from '../images/logos/radial.webp';
-import ruralventures from '../images/logos/ruralventures.webp';
-import raj from '../images/logos/raj.webp';
-import sasprev from '../images/logos/sasprev.webp';
-import siloagro from '../images/logos/siloagro.webp';
-import theyieldlab from '../images/logos/the_yield_lab.webp';
-import velos from '../images/logos/velos.webp';
 
 const carrossel__logos = () => {
   const logos = [
-    bank,
-    agroboard,
-    att,
-    ongroup,
-    onpag,
-    radial,
-    ruralventures,
-    raj,
-    sasprev,
-    siloagro,
-    theyieldlab,
-    velos,
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-1.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-2.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-3.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-4.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-5.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-6.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-7.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-8.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-9.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-10.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-11.webp',
+    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-12.webp',
+
+
   ];
   return (
     <section className='bg-gray-50'>
@@ -37,7 +27,7 @@ const carrossel__logos = () => {
                 key={index}
                 className="flex-none flex justify-center items-center"
               >
-                <img src={logo} alt={`Logo ${index + 1}`} className="w-[200px]" />
+                <img src={logo} alt={`Logo ${index + 1}`} className="w-[200px] grayscale hover:grayscale-0 transition-all duration-300" />
               </div>
             ))}
           </div>
