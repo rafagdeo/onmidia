@@ -8,7 +8,7 @@ const header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="t-0 z-20 fixed bg-white flex px-4 py-6 w-full">
+    <header className="t-0 z-50 fixed bg-white flex px-4 py-6 w-full">
       <div className="container z-20 mx-auto flex items-center justify-between">
         <div className="logo">
           <a href="/">

@@ -88,7 +88,7 @@ const home: React.FC = () => {
          <section className='container mx-auto md:flex p-4 my-12 gap-36'>
           <div className='container grid'>
             <h2 className='font-bold text-4xl uppercase'>Hístoria da on</h2>
-            <span className='text-lg font-light'>BRASIL & WORLDWIDE</span>
+              <span className='text-lg font-light'>BRASIL & WORLDWIDE</span>
           </div>
           <div className='container grid gap-4'>
             <p className='text-xl'>

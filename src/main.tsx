@@ -7,6 +7,9 @@ import Gonbank from './assets/cases/gonbank'
 import Viz from './assets/cases/viz'
 import Giter from './assets/cases/giter'
 import About from './assets/pages/about'
+import RuralSummit from './assets/audiovisual/RuralSummit';
+import SynConsult from './assets/cases/SynConsult';
+import Bauny from './assets/audiovisual/Bauny';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "/quem-somos",
     element: <About />
+  },
+  {
+    path: "/audiovisual/ruralsummit",
+    element: <RuralSummit />
+  },
+  {
+    path: "/audiovisual/bauny",
+    element: <Bauny />
   },
   {
     path: "/cases/teucard",
@@ -28,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/cases/viz",
     element: <Viz />  
+  },
+  {
+    path: "/cases/synconsult",
+    element: <SynConsult />  
   },
   {
     path: "/cases/giter",
