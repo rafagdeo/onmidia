@@ -67,9 +67,9 @@ const SynConsult = () => {
             </p>
           </div>
         </section>
-        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-6.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Logo_Syn_Consult-1.gif" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-7.webp" alt="" className='w-full'/>
-        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-8.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Icone_Syn_Consult.gif" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-9.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult.gif" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-10.webp" alt="" className='w-full'/>
