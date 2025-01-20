@@ -21,9 +21,9 @@ const viz = () => {
             - Marca corporativa
           </h2> */}
           <div className='flex-wrap flex gap-2 items-center'>
-                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Strategy</span>
-                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Development</span>
-                        <span className='px-4 py-1 rounded-full text-sm font-light border-secundary border'>Design</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border'>Strategy</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border'>Development</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light border'>Design</span>
                   </div>
         </div>
         <div className='pt-4'>

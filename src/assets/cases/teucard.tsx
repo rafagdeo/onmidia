@@ -10,13 +10,24 @@ const teucard = () => {
             backgroundImage: `url("https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-20.webp")`,
           }}>
       </section>
-      <section className='py-24 p-4 md:py-44 container mx-auto'>
-        <div className='grid gap-4'>
-          <h1 className='text-3xl md:text-6xl font-bold uppercase'>TeuCard</h1>
-          <h2 className='text-xl font-light'>Porque nada no universo existe por si só</h2>
+      <section className='py-24 p-4 md:py-44 container flex justify-between mx-auto'>
+      <div className="grid gap-8">
+          <h1 className="text-3xl md:text-6xl font-bold uppercase">
+            TeuCard
+          </h1>
+          {/* <h2 className="text-xl md:text-3xl font-light uppercase">
+            {' '}
+            - Marca corporativa
+          </h2> */}
+          <div className='flex-wrap flex gap-2 items-center'>
+                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Strategy</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Development</span>
+                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Design</span>
+                  </div>
+        </div>
+        <div className='pt-4'>
+          <span className='text-2xl'>2025</span>
         </div> 
-         <div>
-          </div> 
       </section>
       <section className='w-full p-4 flex-wrap'>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-10.webp" alt="" className='animation-fadeIn'/>
