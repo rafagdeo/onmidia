@@ -21,6 +21,9 @@ const header = () => {
               <a href="/">Home</a>
             </li>
             <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
+              <a href="/quem-somos">Quem Somos</a>
+            </li>
+            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
               <a href="">Projects</a>
             </li>
             <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>

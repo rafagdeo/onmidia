@@ -85,6 +85,21 @@ const home: React.FC = () => {
           <Projects />
         </div>
 
+         <section className='container mx-auto md:flex p-4 my-12 gap-36'>
+          <div className='container grid'>
+            <h2 className='font-bold text-4xl uppercase'>Hístoria da on</h2>
+            <span className='text-lg font-light'>BRASIL & WORLDWIDE</span>
+          </div>
+          <div className='container grid gap-4'>
+            <p className='text-xl'>
+            Em junho de 2021, no coração de um dos momentos mais desafiadores para o mercado global, nasceu a OnMídia. Fundada com a visão de transformar a maneira como marcas se conectam com pessoas, a agência surgiu com propósito de fazer a diferença em um mercado competitivo. 
+            </p>
+            <p className='text-xl'>
+            Em junho de 2021, no coração de um dos momentos mais desafiadores para o mercado global, nasceu a OnMídia. Fundada com a visão de transformar a maneira como marcas se conectam com pessoas, a agência surgiu com propósito de fazer a diferença em um mercado competitivo. 
+            </p>
+          </div>
+         </section>
+
         <section
           className="py-20 bg-fixed bg-contain md:h-screen content-center"
           style={{

@@ -6,11 +6,16 @@ import Teucard from './assets/cases/teucard'
 import Gonbank from './assets/cases/gonbank'
 import Viz from './assets/cases/viz'
 import Giter from './assets/cases/giter'
+import About from './assets/pages/about'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/quem-somos",
+    element: <About />
   },
   {
     path: "/cases/teucard",

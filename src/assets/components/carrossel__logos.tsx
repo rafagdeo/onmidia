@@ -19,7 +19,7 @@ const carrossel__logos = () => {
   return (
     <section className='bg-gray-50'>
       <div id="logos" className="w-full py-12 md:py-24 ">
-        <h2 className="font-bold text-center text-4xl uppercase">Nossos clientes</h2>
+        <h2 className="font-bold text-center text-3xl md:text-4xl uppercase">Nossos clientes</h2>
         <div className="pt-12 overflow-hidden">
           <div className="flex space-x-24 animate-slide">
             {logos.concat(logos).map((logo, index) => (

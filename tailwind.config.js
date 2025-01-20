@@ -18,6 +18,9 @@ export default {
           'to': {transform: 'translateX(-100%)'}
         },
       },
+      colors: {
+        'secundary': '#de6a07'
+      },
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
         slide: 'slide 30s linear infinite',
