@@ -55,25 +55,25 @@ const Footer = () => {
           <ul className="ml-0 space-y-2 grid md:ml-32">
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Home</li>
             </a>
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Projetos</li>
             </a>
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Cases</li>
             </a>
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Contato</li>
             </a>
@@ -83,19 +83,19 @@ const Footer = () => {
           <ul className="space-y-2 grid">
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Política de Privacidade</li>
             </a>
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Termos e condições</li>
             </a>
             <a
               href="#"
-              className="hover:text-[#de6a07] hover:underline hover:pl-4"
+              className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>© 2025 onmdidia</li>
             </a>
@@ -108,38 +108,38 @@ const Footer = () => {
               name="Nome"
               type="text"
               placeholder="Nome"
-              className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <input
               name="Empresa"
               type="text"
               placeholder="Empresa"
-              className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <input
               name="Telefone"
               type="tel"
               placeholder="Telefone"
-              className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <input
               type="E-mail"
               placeholder="E-mail"
-              className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <textarea
               name="Mensagem"
               placeholder="Escreva sua mensagem"
-              className="bg-transparent border border-gray-500 px-6 py-2 text-[#de6a07] focus:border-[#de6a07] focus:outline-none"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             ></textarea>
             <button
               type="submit"
-              className="bg-[#de6a07] py-2 px-6 text-white hover:bg-[#de6a07] font-bold hover:text-white"
+              className="bg-secundary py-2 px-6 text-white hover:bg-secundary font-bold hover:text-white"
             >
               Enviar
             </button>

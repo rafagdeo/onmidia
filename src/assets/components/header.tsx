@@ -17,20 +17,20 @@ const header = () => {
         </div>
         <nav className="navbar">
           <ul className="hidden md:flex items-center gap-4 text-md uppercase">
-            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
+            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
               <a href="/">Home</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
+            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
               <a href="/quem-somos">Quem Somos</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
-              <a href="">Projects</a>
+            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
+              <a href="">Projetos</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-[#6600C2] hover:text-white'>
-              <a href="">Team</a>
+            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
+              <a href="">Time</a>
             </li>
-            <li className='px-4 py-1 rounded-full bg-black text-white'>
-              <a href="">Contact</a>
+            <li className='px-4 py-1 rounded-full bg-black hover:bg-primary text-white'>
+              <a href="">Contato</a>
             </li>
           </ul>
         </nav>
@@ -46,16 +46,19 @@ const header = () => {
           <div className="fixed z-20 top-14 bg-white w-full py-4 left-0 border-b border-gray-200 rounded-b-md shadow-md">
             <ul className="flex flex-col content-start justify-center w-full h-full space-y-2">
               <li className='p-2 hover:bg-purple-600 hover:text-white'>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className='p-2 hover:bg-purple-600 hover:text-white'>
-                <a href="">Projects</a>
+                <a href="/quem-somos">Quem somos</a>
               </li>
               <li className='p-2 hover:bg-purple-600 hover:text-white'>
-                <a href="">Team</a>
+                <a href="">Projetos</a>
               </li>
               <li className='p-2 hover:bg-purple-600 hover:text-white'>
-                <a href="">Contact</a>
+                <a href="">Time</a>
+              </li>
+              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+                <a href="">Contato</a>
               </li>
             </ul>
             <div className='flex justify-between items-center m-2 py-2'>

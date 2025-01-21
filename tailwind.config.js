@@ -19,6 +19,7 @@ export default {
         },
       },
       colors: {
+        'primary': '#6600C2',
         'secundary': '#de6a07'
       },
       animation: {

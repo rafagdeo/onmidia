@@ -10,6 +10,7 @@ import Footer from '../components/footer';
 import BG from '../images/bg-purple.webp';
 import { GoArrowUpRight } from 'react-icons/go';
 import Carrossel from '../components/carrossel__logos';
+import { TbWorld } from "react-icons/tb";
 
 const home: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -53,19 +54,21 @@ const home: React.FC = () => {
           }}
         >
           <h1 className="text-black font-bold text-6xl md:text-8xl uppercase pb-4">
-            more <br />than an <br />{' '}
-            <span className="bg-gradient-to-r from-slate-900 to-indigo-600 bg-clip-text text-transparent">
-              agency
-            </span>
+            more <br />
+            than an <br /> agency
           </h1>
           <div className="justify-between lg:flex">
             <div className="grid gap-2 text-left h-28 md:h-52 content-end">
               <p className="uppercase">
-                Mais que uma agência,<br/> somos o parceiro para o <br /><b className='font-bold uppercase underline'>futuro do seu
-                negócio</b>.
+                Mais que uma agência,
+                <br /> somos o parceiro para o <br />
+                <b className="font-bold uppercase underline">
+                  futuro do seu negócio
+                </b>
+                .
               </p>
             </div>
-            <div className="grid gap-2 text-right h-28 md:h-52 justify-end content-end">
+            <div className="grid  text-right h-28 md:h-52 justify-end content-end">
               <p>® since 2021</p>
               <span className="uppercase font-bold">BRAZIL, São Paulo</span>
               <span>{dateTime}</span>
@@ -73,8 +76,8 @@ const home: React.FC = () => {
           </div>
         </div>
 
-        <div className='z-10 bg-black'>
-          <img src={Onmidia}/>
+        <div className="z-10 bg-black">
+          <img src={Onmidia} />
         </div>
 
         {/*projetos*/}
@@ -85,30 +88,42 @@ const home: React.FC = () => {
           <Projects />
         </div>
 
-         <section className='container mx-auto md:flex p-4 my-12 gap-36'>
-          <div className='container grid'>
-            <h2 className='font-bold text-4xl uppercase'>Hístoria da on</h2>
-              <span className='text-lg font-light'>BRASIL & WORLDWIDE</span>
+        <section className="container p-4 mx-auto flex flex-col lg:flex-row items-start justify-between py-32">
+          <div className="lg:w-1/2 md:h-[61vh] flex flex-col justify-between">
+            <h1 className="text-4xl md:text-5xl font-bold md:leading-tight mb-4">
+              COCRIAÇÃO E AGILIDADE <br /> TRANSFORMAM <br /> RELACIONAMENTO{' '}
+              <br /> EM SOLUÇÃO
+            </h1>
+            <p className="text-md font-bold flex items-center gap-4">BRAZIL & WORLDWIDE <TbWorld size={25}/></p>
           </div>
-          <div className='container grid gap-4'>
-            <p className='text-xl font-medium text-gray-500'>
-            Em junho de 2021, no coração de um dos momentos mais desafiadores para o mercado global, nasceu a OnMídia. Fundada com a visão de transformar a maneira como marcas se conectam com pessoas, a agência surgiu com propósito de fazer a diferença em um mercado competitivo. 
+
+          <div className="lg:w-1/2 mt-3 lg:mt-96">
+            <p className="text-gray-600 text-xl mb-4">
+              Lorem ipsum dolor sit amet. Aut veritatis enim non eaque
+              repellendus ea dolor unde vel neque cupiditate in adipisci libero.
+              Sed ipsa fugiat quo velit fugiat et dolor sint aut aliquid
+              voluptatem est voluptas ipsa et eligendi blanditiis et ullam
+              beatae.
             </p>
-            <p className='text-xl font-medium text-gray-500'>
-            Em junho de 2021, no coração de um dos momentos mais desafiadores para o mercado global, nasceu a OnMídia. Fundada com a visão de transformar a maneira como marcas se conectam com pessoas, a agência surgiu com propósito de fazer a diferença em um mercado competitivo. 
+            <p className="text-gray-600 text-xl mb-4">
+              Et galisum voluptas a unde reiciendis et minima nobis id rerum
+              maiores rem vitae quam non placeat amet et veritatis distinctio.
+              Ad accusamus voluptatem et nostrum consequatur et commodi neque
+              sit beatae.
             </p>
+            
           </div>
-         </section>
+        </section>
 
         <section
-          className="py-20 bg-fixed bg-contain md:h-screen content-center"
+          className="py-32 bg-fixed bg-contain md:h-screen items-center justify-center content-center"
           style={{
             backgroundImage: `url(${BG})`,
           }}
         >
-          <div className="container mx-auto text-left text-gray-300 grid md:flex gap-4 ">
-            <div className="md:w-2/4 p-4 py-12 grid gap-4 text-2xl">
-              <h2 className="text-4xl font-bold text-white uppercase animate-fadeIn">
+          <div className="container mx-auto text-left text-gray-300 grid lg:flex gap-4">
+            <div className="lg:w-2/4 p-4 lg:py-12 grid gap-4 text-2xl">
+              <h2 className="text-4xl lg:text-6xl font-bold text-white uppercase animate-fadeIn">
                 O que fazemos
               </h2>
               <p className="text-xl animate-fadeIn">
@@ -120,7 +135,7 @@ const home: React.FC = () => {
                 Veja como podemos ajudar.
               </p>
             </div>
-            <div className="container mx-auto grid gap-20">
+            <div className="container mx-auto grid gap-10 lg:gap-20">
               <a
                 href="#"
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
@@ -152,7 +167,7 @@ const home: React.FC = () => {
           </div>
         </section>
 
-        <div className="container mx-auto py-20 p-4 h-[700px] justify-between grid">
+        <section className="container mx-auto py-20 p-4 h-[700px] justify-between grid">
           <div className="w-full md:w-2/4 space-y-8 flex-col">
             <span className="px-4 py-1 rounded-full border-gray-200 border text-lg md:text-sm">
               Processos
@@ -166,7 +181,7 @@ const home: React.FC = () => {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-[#6600C2] hover:text-[#fff]"
+                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
                   <p className="text-2xl md:text-3xl font-bold">Estratégia</p>
@@ -178,7 +193,7 @@ const home: React.FC = () => {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-[#6600C2] hover:text-[#fff]"
+                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
                   <p className="text-2xl md:text-3xl font-bold">Branding</p>
@@ -190,7 +205,7 @@ const home: React.FC = () => {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-[#6600C2] hover:text-[#fff]"
+                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
                   <p className="text-2xl md:text-3xl font-bold">
@@ -204,7 +219,7 @@ const home: React.FC = () => {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-[#6600C2] hover:text-[#fff]"
+                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
                   <p className="text-2xl md:text-3xl font-bold">Development</p>
@@ -216,7 +231,7 @@ const home: React.FC = () => {
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-[#6600C2] hover:text-[#fff]"
+                className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
                   <p className="text-2xl md:text-3xl font-bold">
@@ -227,7 +242,7 @@ const home: React.FC = () => {
               </a>
             </div>
           </div>
-        </div>
+        </section>
 
         <Carrossel />
 

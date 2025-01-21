@@ -27,7 +27,7 @@ const carrossel__logos = () => {
                 key={index}
                 className="flex-none flex justify-center items-center"
               >
-                <img src={logo} alt={`Logo ${index + 1}`} className="w-[200px] grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src={logo} alt={`Logo ${index + 1}`} className="w-[150px] grayscale hover:grayscale-0 transition-all duration-300" />
               </div>
             ))}
           </div>
