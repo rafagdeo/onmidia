@@ -6,15 +6,12 @@ const carrossel__logos = () => {
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-3.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-4.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-5.webp',
-    'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-6.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-7.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-8.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-9.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-10.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-11.webp',
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-12.webp',
-
-
   ];
   return (
     <section className='bg-gray-50'>

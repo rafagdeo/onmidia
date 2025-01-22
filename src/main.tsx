@@ -10,6 +10,7 @@ import About from './assets/pages/about'
 import RuralSummit from './assets/audiovisual/RuralSummit';
 import SynConsult from './assets/cases/SynConsult';
 import Bauny from './assets/audiovisual/Bauny';
+import BySolution from './assets/cases/BySolution';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/audiovisual/bauny",
     element: <Bauny />
+  },
+  {
+    path: "/cases/bysolution",
+    element: <BySolution />
   },
   {
     path: "/cases/teucard",
