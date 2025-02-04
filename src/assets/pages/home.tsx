@@ -100,17 +100,10 @@ const home: React.FC = () => {
 
           <div className="lg:w-1/2 mt-3 lg:mt-96">
             <p className="text-gray-600 text-xl mb-4">
-              Lorem ipsum dolor sit amet. Aut veritatis enim non eaque
-              repellendus ea dolor unde vel neque cupiditate in adipisci libero.
-              Sed ipsa fugiat quo velit fugiat et dolor sint aut aliquid
-              voluptatem est voluptas ipsa et eligendi blanditiis et ullam
-              beatae.
+            O nosso propósito vai além de criar soluções para marcas: queremos tornar as operações mais práticas e sustentáveis, de forma inteligente, para viver uma vida mais humana. Em cada estratégia, buscamos equilibrar a inovação com a responsabilidade, criando ações que não só geram resultados, mas também têm um impacto positivo na sociedade e no meio ambiente.
             </p>
             <p className="text-gray-600 text-xl mb-4">
-              Et galisum voluptas a unde reiciendis et minima nobis id rerum
-              maiores rem vitae quam non placeat amet et veritatis distinctio.
-              Ad accusamus voluptatem et nostrum consequatur et commodi neque
-              sit beatae.
+            A cultura da OnMídia é a alma da nossa jornada. Somos uma empresa jovem, inovadora e ousada, movida por um amor único e imenso por comunicação estratégica, criatividade e transformação digital. Nossa cultura é centrada em princípios sólidos, mas também na capacidade de evoluir constantemente, antecipando tendências e abraçando a inovação.
             </p>
             
           </div>
