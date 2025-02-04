@@ -27,7 +27,7 @@ const header = () => {
               <a href="/quem-somos">Quem Somos</a>
             </li>
             <li className='px-4 py-1 rounded-full bg-black hover:bg-primary text-white'>
-              <a href="#contact">Contato</a>
+              <a href="/#contact">Contato</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,7 @@ const header = () => {
                 <a href="/quem-somos">Quem somos</a>
               </li>
               <li className='p-2 hover:bg-primary hover:text-white'>
-                <a href="#contact">Contato</a>
+                <a href="/#contact">Contato</a>
               </li>
             </ul>
             <div className='px-2 py-4 '>
