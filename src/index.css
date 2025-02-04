@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: 'Neuething Sans Test';
   src: url('./assets/fonts/NeuethingSans-RegularExpanded.otf');

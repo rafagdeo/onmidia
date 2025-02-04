@@ -35,35 +35,16 @@ const SynConsult = () => {
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-3.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-4.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-5.webp" alt="" className='w-full'/>
-        <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
+        <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
           </div>
           <div className="container mx-auto gap-4 grid">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              varius efficitur enim, ut fringilla orci pretium vitae. Fusce
-              viverra ex ligula. Vivamus venenatis, ex quis dignissim convallis,
-              massa lorem interdum nisi, quis accumsan urna dui vitae leo.
-              Maecenas mollis feugiat facilisis. Aenean ex erat, porta porttitor
-              mollis eu, interdum et odio. In semper tortor congue lobortis
-              dictum. Etiam id est dictum, sollicitudin lectus quis, suscipit
-              libero. Suspendisse nunc dui, sollicitudin suscipit mattis non,
-              faucibus ut justo. Integer ullamcorper lacus arcu, vitae hendrerit
-              nisl facilisis ut. Donec placerat in purus sed gravida. Nunc
-              fermentum orci est, et gravida lorem congue ut. Sed eu volutpat
-              erat.
+            Desenvolvemos este projeto de marca da SynConsult com foco em transmitir seriedade, dinamismo, confiança, criatividade, comprometimento e segurança, valores essenciais para uma consultoria especializada no agronegócio.
             </p>
             <p>
-              Aliquam vestibulum nisl libero, sit amet malesuada urna tincidunt
-              in. Donec id tincidunt urna, eu porttitor ante. Vivamus
-              consectetur est augue, vitae tempus erat egestas at. Quisque eget
-              ultricies orci. Pellentesque aliquam sem sit amet leo laoreet,
-              eget ultricies quam vestibulum. In nec feugiat turpis, ac suscipit
-              tortor. Nam et tortor lectus. Proin aliquam, risus et semper
-              efficitur, justo lacus fringilla est, nec aliquam mi lacus in
-              odio. Curabitur cursus rutrum turpis, in euismod nulla dictum sed.
-              Curabitur maximus suscipit dolor eget rutrum.
+            O processo envolveu uma imersão no setor agro e na identidade da empresa, resultando em um posicionamento estratégico que alia inteligência e inovação para impulsionar o crescimento sustentável dos clientes. A identidade visual foi cuidadosamente elaborada com cores que remetem à confiança e modernidade com elementos gráficos que reforçam a conexão com tecnologia e estratégia diretamente ligada ao campo.
             </p>
           </div>
         </section>
@@ -72,34 +53,37 @@ const SynConsult = () => {
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Icone_Syn_Consult.gif" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-9.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult.gif" alt="" className='w-full'/>
-        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-10.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/synconsult_02.jpg" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-11.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/synconsult_01.jpg" alt="" className='w-full'/>
       </section>
 
-      <section className="p-4 flex md:p-12">
+      <section className="container mx-auto p-4 flex py-12">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold uppercase">Time</h2>
         </div>
-        <div className="container mx-auto grid gap-4 md:gap-12">
+        <div className="container mx-auto grid gap-4 md:gap-12 uppercase">
           <div>
-            <h3 className="font-bold text-2xl">Logo</h3>
+            <h3 className="font-bold text-2xl">Gerente de projeto</h3>
+            <p>Jé Alves</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Direção de Arte e Coordenação</h3>
             <p>Rafa Purgatto</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Motion</h3>
+            <h3 className="font-bold text-2xl">Designers</h3>
+            <p>Rafa Purgatto</p>
+            <p>Fabricio Costa</p>
+            <p>Ana Carolina</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Motion Design</h3>
             <p>Fabrício Costa</p>
             <p>Ana Carolina</p>
           </div>
           <div>
             <h3 className="font-bold text-2xl">Mockups</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">UX/UI</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">Website</h3>
             <p>Rafa Purgatto</p>
           </div>
         </div>

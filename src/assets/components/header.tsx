@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa6";
 
 const header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,11 +26,8 @@ const header = () => {
             <li className='px-4 py-1 rounded-full hover:bg-black hover:text-white'>
               <a href="/quem-somos">Quem Somos</a>
             </li>
-            <li className='px-4 py-1 rounded-full hover:bg-black hover:text-white'>
-              <a href="">Time</a>
-            </li>
             <li className='px-4 py-1 rounded-full bg-black hover:bg-primary text-white'>
-              <a href="">Contato</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </nav>
@@ -49,18 +50,27 @@ const header = () => {
                 <a href="/quem-somos">Quem somos</a>
               </li>
               <li className='p-2 hover:bg-primary hover:text-white'>
-                <a href="">Projetos</a>
-              </li>
-              <li className='p-2 hover:bg-primary hover:text-white'>
-                <a href="">Time</a>
-              </li>
-              <li className='p-2 hover:bg-primary hover:text-white'>
-                <a href="">Contato</a>
+                <a href="#contact">Contato</a>
               </li>
             </ul>
-            <div className='flex justify-between items-center m-2 py-2'>
-                  <span>Redes Sociais</span>
-                  <span>PT - EN - ESP</span>
+            <div className='px-2 py-4 '>
+              <div>
+              <span className='font-normal'>Redes Sociais</span>
+                <div className="flex py-4 gap-4">
+                            <a href="https://www.instagram.com/onmidiamkt/">
+                              <FaInstagram />
+                            </a>
+                            <a href="https://www.linkedin.com/company/onmidiaoficial/?viewAsMember=true">
+                              <FaLinkedinIn />
+                            </a>
+                            <a href="https://www.facebook.com/onmidiamkt">
+                              <FaFacebookF />
+                            </a>
+                            <a href="https://www.behance.net/onmdiamkt">
+                              <FaBehance />
+                            </a>
+                          </div>
+              </div>
             </div>
           </div>
         )}

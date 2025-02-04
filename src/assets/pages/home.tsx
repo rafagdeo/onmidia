@@ -40,6 +40,8 @@ const home: React.FC = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+  const fileUrl = "https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/OnMidia-MediaKit.pdf";
+
   return (
     <div>
       <ObserverProvider>
@@ -87,9 +89,9 @@ const home: React.FC = () => {
           <Projects />
         </div>
 
-        <section className="container p-4 mx-auto flex flex-col lg:flex-row items-start justify-between py-32">
+        <section className="container p-4 mx-auto flex flex-col lg:flex-row items-start justify-between md:py-32">
           <div className="lg:w-1/2 md:h-[61vh] flex flex-col justify-between">
-            <h1 className="text-4xl md:text-5xl font-bold md:leading-tight mb-4">
+            <h1 className="text-3xl md:text-5xl font-bold md:leading-tight mb-4">
               COCRIAÇÃO E AGILIDADE <br /> TRANSFORMAM <br /> RELACIONAMENTO{' '}
               <br /> EM SOLUÇÃO
             </h1>
@@ -136,27 +138,23 @@ const home: React.FC = () => {
             </div>
             <div className="container mx-auto grid gap-10 lg:gap-20">
               <a
-                href="#"
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Branding
                 <GoArrowUpRight />
               </a>
               <a
-                href="#"
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Desenvolvimento <GoArrowUpRight />
               </a>
               <a
-                href="#"
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Design
                 <GoArrowUpRight />
               </a>
               <a
-                href="#"
                 className=" hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Audiovisual
@@ -179,7 +177,6 @@ const home: React.FC = () => {
           <div className="md:w-4/4 justify-normal ml-0 md:content-end md:justify-end flex flex-wrap items-center gap-4 md:pt-32 lg:ml-80">
             <div className="flex items-center gap-4">
               <a
-                href="#"
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
@@ -191,7 +188,6 @@ const home: React.FC = () => {
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="#"
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
@@ -203,7 +199,6 @@ const home: React.FC = () => {
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="#"
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
@@ -217,7 +212,6 @@ const home: React.FC = () => {
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="#"
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
@@ -229,7 +223,6 @@ const home: React.FC = () => {
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="#"
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
@@ -245,24 +238,24 @@ const home: React.FC = () => {
 
         <Carrossel />
 
-        <div className="my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
+        <section id="contact"className="my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
           <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
-            Pronto para{' '}
-            <span className="bg-gradient-to-r from-slate-900 to-indigo-600 bg-clip-text text-transparent">
-              trabalhar{' '}
-            </span>
+            Pronto para
+              trabalhar
             juntos?
           </h2>
           <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
             baixe nosso mediakit
           </h2>
           <a
-            href="#"
+            href={fileUrl}
+            target='_blank'
+            rel="noopener noreferrer"
             className=" font-light text-xl text-center justify-center items-center flex gap-4 mt-6"
           >
             DOWNLOAD <MdDownload />
           </a>
-        </div>
+        </section>
         <Footer />
       </ObserverProvider>
     </div>

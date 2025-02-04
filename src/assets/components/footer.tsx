@@ -30,7 +30,8 @@ const Footer = () => {
   return (
     <div className="bg-[#232323] text-white py-20 px-4">
       <div className="container p-4 mx-auto grid md:grid-cols-4 gap-4 uppercase">
-        <div className="text-xl space-y-2">
+        <div className="text-md flex-col flex justify-between">
+          <div className="grid space-y-2">
           <h3 className="">São Paulo</h3>
           <p className="text-sm">
             R. Bom Sucesso, 220 - Cidade Mãe do Céu, São Paulo - SP, Sala 2207
@@ -50,8 +51,13 @@ const Footer = () => {
               <FaBehance />
             </a>
           </div>
+          </div>
+          <div>
+            <span className="text-gray-400 font-light text-md">2025 ONMIDIA © <br/>ALL RIGHTS RESERVED</span>
+          </div>
+          
         </div>
-        <div className="text-xl">
+        <div>
           <ul className="ml-0 space-y-2 grid md:ml-32">
             <a
               href="/"
@@ -69,17 +75,11 @@ const Footer = () => {
               href="#"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
-              <li>Cases</li>
-            </a>
-            <a
-              href="#"
-              className="hover:text-secundary hover:underline hover:pl-4"
-            >
               <li>Contato</li>
             </a>
           </ul>
         </div>
-        <div className="text-xl">
+        <div className="text-md">
           <ul className="space-y-2 grid">
             <a
               href="#"
@@ -92,12 +92,6 @@ const Footer = () => {
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Termos e condições</li>
-            </a>
-            <a
-              href="#"
-              className="hover:text-secundary hover:underline hover:pl-4"
-            >
-              <li>© 2025 onmdidia</li>
             </a>
           </ul>
         </div>

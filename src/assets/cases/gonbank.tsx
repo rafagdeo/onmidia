@@ -35,35 +35,19 @@ const gonbank = () => {
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_9.gif" alt="" />
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_6.webp" alt="" />
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_10.gif" alt="" />
-        <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
+        <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
           </div>
           <div className="container mx-auto gap-4 grid">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              varius efficitur enim, ut fringilla orci pretium vitae. Fusce
-              viverra ex ligula. Vivamus venenatis, ex quis dignissim convallis,
-              massa lorem interdum nisi, quis accumsan urna dui vitae leo.
-              Maecenas mollis feugiat facilisis. Aenean ex erat, porta porttitor
-              mollis eu, interdum et odio. In semper tortor congue lobortis
-              dictum. Etiam id est dictum, sollicitudin lectus quis, suscipit
-              libero. Suspendisse nunc dui, sollicitudin suscipit mattis non,
-              faucibus ut justo. Integer ullamcorper lacus arcu, vitae hendrerit
-              nisl facilisis ut. Donec placerat in purus sed gravida. Nunc
-              fermentum orci est, et gravida lorem congue ut. Sed eu volutpat
-              erat.
+            Um projeto que começou do zero conosco, e hoje tem se tornado realidade na palma da sua mão. O GonBank nasceu para impulsionar as pessoas com um banco digital ágil, sem burocracia e acessível para todos. Inspirado no conceito de "GO" (vai, avance), a marca transmite dinamismo e inovação, oferecendo crédito, consignados e serviços financeiros de forma simples e moderna.
             </p>
             <p>
-              Aliquam vestibulum nisl libero, sit amet malesuada urna tincidunt
-              in. Donec id tincidunt urna, eu porttitor ante. Vivamus
-              consectetur est augue, vitae tempus erat egestas at. Quisque eget
-              ultricies orci. Pellentesque aliquam sem sit amet leo laoreet,
-              eget ultricies quam vestibulum. In nec feugiat turpis, ac suscipit
-              tortor. Nam et tortor lectus. Proin aliquam, risus et semper
-              efficitur, justo lacus fringilla est, nec aliquam mi lacus in
-              odio. Curabitur cursus rutrum turpis, in euismod nulla dictum sed.
-              Curabitur maximus suscipit dolor eget rutrum.
+            Com uma identidade vibrante e uma comunicação jovem e direta, o GonBank aposta em tecnologia, experiência intuitiva e benefícios exclusivos para tornar a vida financeira dos clientes mais fácil e cheia de possibilidades. 
+            </p>
+            <p className='font-bold'>
+              "GO! Com o GonBank, você não fica parado." 
             </p>
           </div>
         </section>
@@ -74,31 +58,35 @@ const gonbank = () => {
         <video src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_1.mov" className="p-0" autoPlay muted loop></video>
       </section>
 
-      <section className="p-4 flex md:p-12">
+      <section className="flex container mx-auto uppercase py-12">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold uppercase">Time</h2>
+          <h2 className="text-4xl font-bold">Time</h2>
         </div>
         <div className="container mx-auto grid gap-4 md:gap-12">
           <div>
-            <h3 className="font-bold text-2xl">Logo</h3>
+            <h3 className="font-bold text-2xl">Gerente do Projeto</h3>
+            <p>Jé Alves
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Direção de Arte e Coordenação</h3>
             <p>Rafa Purgatto</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Motion</h3>
+            <h3 className="font-bold text-2xl">Designers</h3>
+            <p>Rafa Purgatto</p>
+            <p>Fabrício Costa</p>
+            <p>Ana Carolina</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Motion Design</h3>
             <p>Fabrício Costa</p>
             <p>Ana Carolina</p>
           </div>
           <div>
             <h3 className="font-bold text-2xl">Mockups</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">UX/UI</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">Website</h3>
             <p>Rafa Purgatto</p>
+            <p>Fabrício Costa</p>
           </div>
         </div>
       </section>

@@ -94,35 +94,22 @@ const RuralSummit = () => {
           </div>
         </div>
       </section>
-      <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
+      <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
         <div className="container mx-auto">
           <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
         </div>
         <div className="container mx-auto gap-4 grid">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            varius efficitur enim, ut fringilla orci pretium vitae. Fusce
-            viverra ex ligula. Vivamus venenatis, ex quis dignissim convallis,
-            massa lorem interdum nisi, quis accumsan urna dui vitae leo.
-            Maecenas mollis feugiat facilisis. Aenean ex erat, porta porttitor
-            mollis eu, interdum et odio. In semper tortor congue lobortis
-            dictum. Etiam id est dictum, sollicitudin lectus quis, suscipit
-            libero. Suspendisse nunc dui, sollicitudin suscipit mattis non,
-            faucibus ut justo. Integer ullamcorper lacus arcu, vitae hendrerit
-            nisl facilisis ut. Donec placerat in purus sed gravida. Nunc
-            fermentum orci est, et gravida lorem congue ut. Sed eu volutpat
-            erat.
+          O Rural Summit by Onmídia é um evento inovador que une conhecimento, tecnologia e networking para transformar o agronegócio. Com uma abordagem dinâmica e estratégica, o evento reúne especialistas, empresas e produtores para debater as principais tendências do setor, apresentando soluções inovadoras e oportunidades de negócio
           </p>
           <p>
-            Aliquam vestibulum nisl libero, sit amet malesuada urna tincidunt
-            in. Donec id tincidunt urna, eu porttitor ante. Vivamus consectetur
-            est augue, vitae tempus erat egestas at. Quisque eget ultricies
-            orci. Pellentesque aliquam sem sit amet leo laoreet, eget ultricies
-            quam vestibulum. In nec feugiat turpis, ac suscipit tortor. Nam et
-            tortor lectus. Proin aliquam, risus et semper efficitur, justo lacus
-            fringilla est, nec aliquam mi lacus in odio. Curabitur cursus rutrum
-            turpis, in euismod nulla dictum sed. Curabitur maximus suscipit
-            dolor eget rutrum.
+          A Onmídia, responsável por toda a organização, traz sua expertise para criar uma experiência imersiva e impactante, com espaços interativos, palestras de alto nível e uma comunicação visual moderna que reforça o conceito de um agro conectado ao futuro. A estratégia de marketing digital, redes sociais e campanhas publicitárias garantem amplo alcance e engajamento, posicionando o Rural Summit como um dos eventos mais relevantes do setor.
+          </p>
+          <p>
+          Com conteúdo exclusivos, rodadas de negócios e um ambiente projetado para conexões estratégicas, o Rural Summit by Onmídia se consolida como um marco para impulsionar o agronegócio rumo a um futuro mais tecnológico e sustentável. 
+          </p>
+          <p>
+          Nosso time, teve a tarefa de não só organizar, mas criar conteúdos e ser responsável pelo Aftermovie e Highlights do evento, registrando e capturando momentos marcantes desse evento que promete chegar com tudo sempre que é anunciado.
           </p>
         </div>
       </section>
@@ -144,31 +131,49 @@ const RuralSummit = () => {
           />
         </div>
       </div>
-      <section className="p-4 flex md:p-12">
+      <section className="p-4 flex container mx-auto uppercase py-12">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold uppercase">Time</h2>
+          <h2 className="text-4xl font-bold">Time</h2>
         </div>
         <div className="container mx-auto grid gap-4 md:gap-12">
           <div>
-            <h3 className="font-bold text-2xl">Logo</h3>
+            <h3 className="font-bold text-2xl">Gerente do Projeto</h3>
+            <p>Jé Alves
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Direção de Arte e Coordenação</h3>
             <p>Rafa Purgatto</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Motion</h3>
-            <p>Fabrício Costa</p>
-            <p>Ana Carolina</p>
+            <h3 className="font-bold text-2xl">Coordenação do Evento</h3>
+            <p>Arissa Ohashi</p>
+            <p>Jé Alves</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Mockups</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">UX/UI</h3>
-            <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">Website</h3>
+            <h3 className="font-bold text-2xl">Filmmakers</h3>
             <p>Rafa Purgatto</p>
+            <p>Cesar Alexandre
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Real Time e Backstage</h3>
+            <p>Raíssa Cristina</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Fotografia</h3>
+            <p>Pâmela Fernandes</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Pós – Produção e Edição</h3>
+            <p>Cesar Alexandre</p>
+            <p>Rafa Purgatto</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Transmissão ao Vivo</h3>
+            <p>Rafa Purgatto</p>
+            <p>Cesar Alexandre</p>
+            <p>Raissa Cristina</p>
           </div>
         </div>
       </section>
