@@ -54,16 +54,16 @@ const Footer = () => {
         <div className="text-xl">
           <ul className="ml-0 space-y-2 grid md:ml-32">
             <a
-              href="#"
+              href="/"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Home</li>
             </a>
             <a
-              href="#"
+              href="/quem-somos"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
-              <li>Projetos</li>
+              <li>Quem Somos</li>
             </a>
             <a
               href="#"

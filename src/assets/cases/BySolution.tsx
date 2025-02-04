@@ -14,7 +14,7 @@ const BySolution = () => {
       <section className="py-24 p-4 md:py-44 container mx-auto">
         <div className="grid gap-4">
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
-            Giter
+          BySolution
           </h1>
           <h2 className="text-xl md:text-3xl font-light uppercase">
             {' '}
@@ -25,9 +25,9 @@ const BySolution = () => {
       </section>
       <section className="w-full p-4 flex-wrap">
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-35.webp" alt="" className='w-full'/>
-        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-3.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Grid_By_Solution.gif" alt="" className='w-full'/>
         <img src='https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-5.webp' alt="" className='w-full'/>
-        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-7.webp" alt="" className='w-full'/>
+        <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Wave_By_Solution.gif" alt="" className='w-full'/>
         <section className="grid md:flex py-8 md:py-32 gap-4 p-4 md:p-12">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
@@ -61,7 +61,7 @@ const BySolution = () => {
           </div>
         </section>
         <img src='https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-8.webp' alt="" className='w-full'/>
-        <img src='https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-9.webp' alt="" className='w-full'/>
+        <img src='https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/By_Solution_Imagem10.gif' alt="" className='w-full'/>
         <img src='https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-11.webp' alt="" className='w-full'/>
       </section>
 

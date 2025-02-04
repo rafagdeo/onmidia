@@ -3,7 +3,6 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 
 const header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const Menu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -17,16 +16,13 @@ const header = () => {
         </div>
         <nav className="navbar">
           <ul className="hidden md:flex items-center gap-4 text-md uppercase">
-            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
+            <li className='px-4 py-1 rounded-full hover:bg-black hover:text-white'>
               <a href="/">Home</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
+            <li className='px-4 py-1 rounded-full hover:bg-black hover:text-white'>
               <a href="/quem-somos">Quem Somos</a>
             </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
-              <a href="">Projetos</a>
-            </li>
-            <li className='px-4 py-1 rounded-xl hover:bg-black hover:text-white'>
+            <li className='px-4 py-1 rounded-full hover:bg-black hover:text-white'>
               <a href="">Time</a>
             </li>
             <li className='px-4 py-1 rounded-full bg-black hover:bg-primary text-white'>
@@ -34,6 +30,7 @@ const header = () => {
             </li>
           </ul>
         </nav>
+        
       </div>
       <button
         id="menu"
@@ -45,19 +42,19 @@ const header = () => {
         {isMenuOpen && (
           <div className="fixed z-20 top-14 bg-white w-full py-4 left-0 border-b border-gray-200 rounded-b-md shadow-md">
             <ul className="flex flex-col content-start justify-center w-full h-full space-y-2">
-              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+              <li className='p-2 hover:bg-primary hover:text-white'>
                 <a href="/">Home</a>
               </li>
-              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+              <li className='p-2 hover:bg-primary hover:text-white'>
                 <a href="/quem-somos">Quem somos</a>
               </li>
-              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+              <li className='p-2 hover:bg-primary hover:text-white'>
                 <a href="">Projetos</a>
               </li>
-              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+              <li className='p-2 hover:bg-primary hover:text-white'>
                 <a href="">Time</a>
               </li>
-              <li className='p-2 hover:bg-purple-600 hover:text-white'>
+              <li className='p-2 hover:bg-primary hover:text-white'>
                 <a href="">Contato</a>
               </li>
             </ul>
@@ -67,6 +64,8 @@ const header = () => {
             </div>
           </div>
         )}
+
+              
     </header>
   );
 };

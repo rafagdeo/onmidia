@@ -1,10 +1,10 @@
 const projects = () => {
   return (
     <div>
-      <a href="/cases/teucard" className="container mx-auto p-4 grid gap-2">
+      <a href="/cases/bysolution" className="container mx-auto p-4 grid gap-2">
         <div className="relative z-0 overflow-hidden rounded-lg">
           <img
-            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-31.webp"
+            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/By_Solution_Imagem10.gif"
             alt=""
             className="w-full z-0 h-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
           />
@@ -82,7 +82,7 @@ const projects = () => {
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/IMG_0236.jpg"
               alt="rural"
-              className="w-full h-[400px] object-cover rounded-lg transition-transform duration-500 hover:scale-110"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
             />
           </div>
           <div className="grid gap-2">
@@ -102,7 +102,7 @@ const projects = () => {
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/77-IMG_6741.jpg"
               alt="rural"
-              className="w-full h-[400px] object-cover rounded-lg transition-transform duration-500 hover:scale-110"
+              className="w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
             />
           </div>
           <div className="grid gap-2">

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Onmidia from '../video/Sessão_site---OnMídia.gif';
 import Header from '../components/header';
 import ObserverProvider from '../components/ObserverProvider';
 import Projects from '../components/projects';
@@ -77,7 +76,7 @@ const home: React.FC = () => {
         </div>
 
         <div className="z-10 bg-black">
-          <img src={Onmidia} />
+          <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Sessoes_Site_OnMidia.gif" className='w-full object-cover'/>
         </div>
 
         {/*projetos*/}
