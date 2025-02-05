@@ -8,7 +8,7 @@ const Footer = () => {
     event.preventDefault();
     const formData = new FormData(event.target as HTMLFormElement);
 
-    formData.append("access_key", '4a03c91e-3656-408d-82db-096776f69d0e');
+    formData.append("access_key", '2d7d77ec-2060-44e3-94b9-0ba8cd1fba98');
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
