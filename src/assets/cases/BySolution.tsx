@@ -65,29 +65,13 @@ const BySolution = () => {
           </div>
           <div className="container mx-auto gap-4 grid">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              varius efficitur enim, ut fringilla orci pretium vitae. Fusce
-              viverra ex ligula. Vivamus venenatis, ex quis dignissim convallis,
-              massa lorem interdum nisi, quis accumsan urna dui vitae leo.
-              Maecenas mollis feugiat facilisis. Aenean ex erat, porta porttitor
-              mollis eu, interdum et odio. In semper tortor congue lobortis
-              dictum. Etiam id est dictum, sollicitudin lectus quis, suscipit
-              libero. Suspendisse nunc dui, sollicitudin suscipit mattis non,
-              faucibus ut justo. Integer ullamcorper lacus arcu, vitae hendrerit
-              nisl facilisis ut. Donec placerat in purus sed gravida. Nunc
-              fermentum orci est, et gravida lorem congue ut. Sed eu volutpat
-              erat.
+            O desenvolvimento da marca começou com uma <b>análise aprofundada da identidade da empresa</b>, considerando sua missão de oferecer soluções inteligentes e seu compromisso com a tecnologia. A partir disso, realizamos um estudo de mercado para posicionar a BySolution como referência no setor de tecnologia.
             </p>
             <p>
-              Aliquam vestibulum nisl libero, sit amet malesuada urna tincidunt
-              in. Donec id tincidunt urna, eu porttitor ante. Vivamus
-              consectetur est augue, vitae tempus erat egestas at. Quisque eget
-              ultricies orci. Pellentesque aliquam sem sit amet leo laoreet,
-              eget ultricies quam vestibulum. In nec feugiat turpis, ac suscipit
-              tortor. Nam et tortor lectus. Proin aliquam, risus et semper
-              efficitur, justo lacus fringilla est, nec aliquam mi lacus in
-              odio. Curabitur cursus rutrum turpis, in euismod nulla dictum sed.
-              Curabitur maximus suscipit dolor eget rutrum.
+            A identidade visual foi um dos pilares do projeto, garantindo que a marca transmitisse modernidade e confiança. Além do design do logotipo e da escolha da paleta de cores, foi definida uma linguagem de comunicação clara e objetiva, reforçando a expertise da empresa no segmento.
+            </p>
+            <p>
+            A nova identidade foi aplicada em diversos materiais e plataformas, incluindo site, redes sociais e materiais institucionais, consolidando a presença digital da BySolution. Com um <b>posicionamento forte e diferenciado</b>, a marca desenvolvida pelo time da OnMídia hoje se destaca como sinônimo de inovação e tecnologia no mercado.
             </p>
           </div>
         </section>
@@ -108,27 +92,29 @@ const BySolution = () => {
         />
       </section>
 
-      <section className="p-4 flex md:p-12">
+      <section className="p-4 flex container mx-auto uppercase py-12">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold uppercase">Time</h2>
+          <h2 className="text-4xl font-bold">Time</h2>
         </div>
         <div className="container mx-auto grid gap-4 md:gap-12">
           <div>
-            <h3 className="font-bold text-2xl">Logo</h3>
+            <h3 className="font-bold text-2xl">Gerente do Projeto</h3>
+            <p>Jé Alves
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Direção de Arte e Coordenação</h3>
             <p>Rafa Purgatto</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Motion</h3>
-            <p>Fabrício Costa</p>
+            <h3 className="font-bold text-2xl">Designer</h3>
+            <p>Vini Campos</p>
             <p>Ana Carolina</p>
           </div>
           <div>
-            <h3 className="font-bold text-2xl">Mockups</h3>
+            <h3 className="font-bold text-2xl">Motion Design</h3>
             <p>Fabrício Costa</p>
-          </div>
-          <div>
-            <h3 className="font-bold text-2xl">UX/UI</h3>
-            <p>Fabrício Costa</p>
+            <p>Ana Carolina</p>
           </div>
           <div>
             <h3 className="font-bold text-2xl">Website</h3>
