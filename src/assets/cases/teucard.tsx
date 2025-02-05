@@ -15,14 +15,19 @@ const teucard = () => {
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             TeuCard
           </h1>
-          {/* <h2 className="text-xl md:text-3xl font-light uppercase">
-            {' '}
-            - Marca corporativa
-          </h2> */}
           <div className='flex-wrap flex gap-2 items-center'>
-                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Strategy</span>
-                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Development</span>
-                        <span className='px-4 py-1 rounded-full text-sm font-light  border'>Design</span>
+          <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Strategy
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+            Branding
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+            Developmet
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+            UX Design
+            </span>
                   </div>
         </div>
         <div className='pt-4'>

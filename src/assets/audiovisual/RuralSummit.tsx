@@ -22,17 +22,19 @@ const RuralSummit = () => {
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             Rural Summit
           </h1>
-          <h2 className="text-xl md:text-3xl font-light uppercase">
-            {' '}
-            - Marca corporativa
-          </h2>
           <div className="flex-wrap flex gap-2 items-center">
-            <span className="px-4 py-1 rounded-full text-sm font-light  border">
-            Aftermovie
-            </span>
-            <span className="px-4 py-1 rounded-full text-sm font-light  border">
-            Eventos
-            </span>
+          <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Aftermovie
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Eventos
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Audiovisual
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
+              </span>
           </div>
         </div>
         <div className="pt-4">
@@ -168,12 +170,17 @@ const RuralSummit = () => {
             <h3 className="font-bold text-2xl">Pós – Produção e Edição</h3>
             <p>Cesar Alexandre</p>
             <p>Rafa Purgatto</p>
+            <p>Pâmela Fernandes</p>
           </div>
           <div>
             <h3 className="font-bold text-2xl">Transmissão ao Vivo</h3>
             <p>Rafa Purgatto</p>
             <p>Cesar Alexandre</p>
             <p>Raissa Cristina</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-2xl">Website</h3>
+            <p>Vinicius Campos</p>
           </div>
         </div>
       </section>

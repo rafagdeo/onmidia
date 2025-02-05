@@ -228,10 +228,8 @@ const home: React.FC = () => {
             </div>
           </div>
         </section>
-
         <Carrossel />
-
-        <section id="contact"className="my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
+        <section id="contact"className="my-12 md:my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
           <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
             Pronto para
               trabalhar

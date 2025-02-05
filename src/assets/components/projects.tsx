@@ -1,10 +1,10 @@
 const projects = () => {
   return (
     <div>
-      <a href="/cases/bysolution" className="container mx-auto p-4 grid gap-2">
+      <a href="/cases/teucard" className="container mx-auto p-4 grid gap-2">
         <div className="relative z-0 overflow-hidden rounded-lg">
           <img
-            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/By_Solution_Imagem10.gif"
+            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Prancheta-31.webp"
             alt=""
             className="w-full z-0 h-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
           />
@@ -16,10 +16,13 @@ const projects = () => {
               Strategy
             </span>
             <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Development
+            Branding
             </span>
             <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Design
+            Developmet
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+            UX Design
             </span>
           </div>
         </div>
@@ -40,13 +43,7 @@ const projects = () => {
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Development
-              </span>
-              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Design
-              </span>
-              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Content
+              Branding
               </span>
             </div>
           </div>
@@ -66,13 +63,13 @@ const projects = () => {
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Development
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Design
-              </span>
-              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Content
+              UX Design
               </span>
             </div>
           </div>
@@ -89,10 +86,13 @@ const projects = () => {
             <h3 className="text-xl pt-2 font-bold uppercase">Bauny</h3>
             <div className="flex-wrap flex gap-2 items-center">
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Audiovisual
+              Aftermovie
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Eventos
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Audiovisual
               </span>
             </div>
           </div>
@@ -115,7 +115,10 @@ const projects = () => {
               Eventos
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Transmissão Ao Vivo
+              Audiovisual
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
               </span>
             </div>
           </div>
