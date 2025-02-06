@@ -12,7 +12,7 @@ const header = () => {
   };
   return (
     <header className="t-0 z-50 fixed bg-white flex px-4 py-6 w-full">
-      <div className="container z-20 mx-auto flex items-center justify-between">
+      <div className="w-[1280px] z-20 mx-auto flex items-center justify-between">
         <div className="logo">
           <a href="/">
             <img src="https://onmidiamkt.com.br/wp-content/uploads/2023/10/cropped-onmidia-logo.png" alt="logo__onmidia" className='h-[30px]'/>

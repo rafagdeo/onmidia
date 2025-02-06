@@ -10,7 +10,7 @@ const about = () => {
     <>
       <ObserverProvider>
         <Header />
-        <section className="container mx-auto grid md:gap-12 p-4 gap-4 pt-32 lg:py-52">
+        <section className="container md:w-[1280px] mx-auto grid md:gap-12 md:p-0 p-4 gap-4 pt-32 lg:py-52">
           <div className="p-0">
             <h1 className="w-full md:w-3/4 eading-tight text-2xl lg:text-5xl md:leading-tight font-bold uppercase text-black animate-fadeIn">
               Somos movidos pelo desejo constante de reinventar, de transformar
@@ -30,20 +30,20 @@ const about = () => {
           </div>
         </section>
 
-        <section className="container mx-auto px-4">
-          <div className="grid md:flex text-white h-screen items-end content-end p-2 md:p-8"
+        <section className="container md:w-[1280px] mx-auto">
+          <div className="grid md:flex text-white md:h-screen items-end content-end p-2 md:p-8"
           style={{
             backgroundImage: `url(https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           }}>
-          <div className="my-12 flex">
+          <div className="my-4 md:my-12 flex">
             <div className="container mx-auto">
             </div>
             <div className="container mx-auto"></div>
           </div>
-          <div className="my-12 grid md:flex gap-12 text-center">
+          <div className="my-4 md:my-12 grid md:flex gap-12 text-center">
             <div className="container mx-auto"></div>
             <div className="w-4/4">
               <p className="text-xl text-left font-light animate-fadeIn">
@@ -58,7 +58,7 @@ const about = () => {
           </div>
         </section>
 
-        <section className="p-4 conteiner md:w-[1127px] mx-auto text-center content-center py-32">
+        <section className="p-4 conteiner md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
           <h2 className="eading-tight text-3xl md:text-4xl md:leading-tight font-bold uppercase text-black animate-fadeIn">
             Somos movidos pelo desejo constante de reinventar, de transformar o
             tradicional em algo produtivo.
@@ -67,7 +67,7 @@ const about = () => {
         {/* 
         <Carrossel /> */}
         <Team />
-        <section className="p-4 container md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
+        <section className="p-4 w-[1280px] md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
           <p className="text-xl text-left font-light animate-fadeIn">
             Buscamos potencializar o sucesso do cliente, construindo e
             conectando soluções únicas, criativas e inovadoras para cada marca.
@@ -77,7 +77,7 @@ const about = () => {
           </p>
         </section>
         <section
-          className="grid container mx-auto p-4 md:p-20 gap-4 py-10 text-white"
+          className="grid container md:w-[1280px] mx-auto p-4 md:p-20 gap-4 py-10 text-white"
           style={{
             backgroundImage: `url(${BG})`,
           }}

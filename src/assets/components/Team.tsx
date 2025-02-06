@@ -57,7 +57,7 @@ const Team = () => {
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/editadas-site-11.jpg"
               className="w-full"
             />
-            <h3 className="font-bold text-xl uppercase">Fabrício F. Costa</h3>
+            <h3 className="font-bold text-xl uppercase">Fabrício Costa</h3>
             <span className="font-light uppercase text-[12px]">
               DESIGNER
             </span>
@@ -99,7 +99,7 @@ const Team = () => {
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/editadas-site-18.jpg"
               className="w-full"
             />
-            <h3 className="font-bold text-xl uppercase">Rafael Purgatto</h3>
+            <h3 className="font-bold text-xl uppercase">Rafa Purgatto</h3>
             <span className="font-light uppercase text-[12px]">
               Coordenador de Design
             </span>
@@ -127,7 +127,7 @@ const Team = () => {
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/editadas-site-14.jpg"
               className="w-full"
             />
-            <h3 className="font-bold text-xl uppercase">Heloisa Infanti</h3>
+            <h3 className="font-bold text-xl uppercase">Helô Infanti</h3>
             <span className="font-light uppercase text-[12px]">
             Coordenadora de estratégia
             </span>
@@ -155,7 +155,7 @@ const Team = () => {
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/editadas-site-10.jpg"
               className="w-full"
             />
-            <h3 className="font-bold text-xl uppercase">Arissa Ohashi</h3>
+            <h3 className="font-bold text-xl uppercase">Ari Ohashi</h3>
             <span className="font-light uppercase text-[12px]">
               Atendimento Publicitário
             </span>

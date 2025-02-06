@@ -1,7 +1,7 @@
 const projects = () => {
   return (
     <div>
-      <a href="/cases/bysolution" className="container mx-auto p-4 grid gap-2">
+      <a href="/cases/bysolution" className="container md:w-[1280px] mx-auto p-4 grid gap-2">
         <div className="relative z-0 overflow-hidden rounded-lg">
           <img
             src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-2.webp"
@@ -27,7 +27,7 @@ const projects = () => {
           </div>
         </div>
       </a>
-      <div className=" container mx-auto grid-cols-1 grid md:grid-cols-2 gap-4">
+      <div className="container md:w-[1280px] mx-auto grid-cols-1 grid md:grid-cols-2 gap-4">
         <a href="/cases/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
@@ -83,7 +83,7 @@ const projects = () => {
             />
           </div>
           <div className="grid gap-2">
-            <h3 className="text-xl pt-2 font-bold uppercase">Bauny</h3>
+            <h3 className="text-xl pt-2 font-bold uppercase">Bauny Cosméticos</h3>
             <div className="flex-wrap flex gap-2 items-center">
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
               Aftermovie
@@ -106,7 +106,7 @@ const projects = () => {
             />
           </div>
           <div className="grid gap-2">
-            <h3 className="text-xl pt-2 font-bold uppercase">Rural Summit</h3>
+            <h3 className="text-xl pt-2 font-bold uppercase">Rural Summit 2024</h3>
             <div className="flex-wrap flex gap-2 items-center">
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
               Aftermovie

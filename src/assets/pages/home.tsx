@@ -47,7 +47,7 @@ const home: React.FC = () => {
       <ObserverProvider>
         <Header />
         <div
-          className="h-[650px] md:h-[750px] pt-20 md:pt-40 p-4 container mx-auto align-text-bottom content-center justify-center"
+          className="h-[650px] md:h-[750px] pt-20 md:pt-40 p-4 md:p-0 container md:w-[1280px] mx-auto align-text-bottom content-center justify-center"
           style={{
             opacity: opacity,
             transform: `scale(${scale}) translateY(${scrollY / 2}px)`,
@@ -89,7 +89,7 @@ const home: React.FC = () => {
           <Projects />
         </div>
 
-        <section className="container p-4 mx-auto flex flex-col lg:flex-row items-start justify-between md:py-32">
+        <section className="container md:w-[1280px] p-4 mx-auto flex flex-col lg:flex-row items-start justify-between md:py-32">
           <div className="lg:w-1/2 md:h-[61vh] flex flex-col justify-between">
             <h1 className="text-3xl md:text-5xl font-bold md:leading-tight mb-4">
               COCRIAÇÃO E AGILIDADE <br /> TRANSFORMAM <br /> RELACIONAMENTO{' '}
@@ -115,7 +115,7 @@ const home: React.FC = () => {
             backgroundImage: `url(${BG})`,
           }}
         >
-          <div className="container mx-auto text-left text-gray-300 grid lg:flex gap-4">
+          <div className="container md:w-[1280px] mx-auto text-left text-gray-300 grid lg:flex gap-4">
             <div className="lg:w-2/4 p-4 lg:py-12 grid gap-4 text-2xl">
               <h2 className="text-4xl lg:text-6xl font-bold text-white uppercase animate-fadeIn">
                 O que fazemos
@@ -130,22 +130,10 @@ const home: React.FC = () => {
               </p>
             </div>
             <div className="container mx-auto grid gap-10 lg:gap-20">
-              <a
-                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
-              >
-                Branding
-                <GoArrowUpRight />
-              </a>
-              <a
+            <a
                 className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
               >
                 Desenvolvimento <GoArrowUpRight />
-              </a>
-              <a
-                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
-              >
-                Design
-                <GoArrowUpRight />
               </a>
               <a
                 className=" hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
@@ -153,11 +141,36 @@ const home: React.FC = () => {
                 Audiovisual
                 <GoArrowUpRight />
               </a>
+              <a
+                className=" hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+              >
+                Tráfego
+                <GoArrowUpRight />
+              </a>
+              <a
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+              >
+                Branding
+                <GoArrowUpRight />
+              </a>
+              
+              <a
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+              >
+                Design
+                <GoArrowUpRight />
+              </a>
+              <a
+                className="hover:pl-12 p-4 items-center font-bold text-2xl justify-between border-b border-gray-400 flex gap-4 hover:border-white"
+              >
+                Evento
+                <GoArrowUpRight />
+              </a>
             </div>
           </div>
         </section>
 
-        <section className="container mx-auto py-20 p-4 h-[700px] justify-between grid">
+        <section className="container md:w-[1280px] mx-auto py-20 p-4 h-[700px] justify-between grid">
           <div className="w-full md:w-2/4 space-y-8 flex-col">
             <span className="px-4 py-1 rounded-full border-gray-200 border text-lg md:text-sm">
               Processos
@@ -173,7 +186,7 @@ const home: React.FC = () => {
                 className="rounded-full border items-center gap-4 px-8 py-2 border-gray-200 hover:bg-primary hover:text-[#fff]"
               >
                 <div className="flex items-center gap-4">
-                  <p className="text-2xl md:text-3xl font-bold">Estratégia</p>
+                  <p className="text-2xl md:text-3xl font-bold">Strategy</p>
                   <FaArrowRightLong />
                 </div>
               </a>
@@ -229,22 +242,20 @@ const home: React.FC = () => {
           </div>
         </section>
         <Carrossel />
-        <section id="contact"className="my-12 md:my-36 w-full md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
-          <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
-            Pronto para
-              trabalhar
-            juntos?
+        <section id="contact" className="my-12 md:my-36 container md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
+          <h2 className="font-bold text-3xl md:text-5xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
+          Pronto para trabalharmos juntos?
           </h2>
-          <h2 className="font-bold text-4xl md:text-6xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
+          <h2 className="font-bold text-3xl md:text-5xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
             baixe nosso mediakit
           </h2>
           <a
             href={fileUrl}
             target='_blank'
             rel="noopener noreferrer"
-            className=" font-light text-xl text-center justify-center items-center flex gap-4 mt-6"
+            className="font-light text-xl text-center justify-center items-center flex gap-4 mt-6"
           >
-            DOWNLOAD <MdDownload />
+            Visualizar <MdDownload />
           </a>
         </section>
         <Footer />
