@@ -19,13 +19,7 @@ const about = () => {
           </div>
           <div className="items-end justify-end grid gap-4 md:pl-40 lg:pl-96">
             <p className="text-xl text-right font-light animate-fadeIn">
-              Acreditamos que as grandes ideias surgem quando diferentes
-              perspectivas se encontram. Por isso, nossa cultura é colaborativa
-              e multidisciplinar. Não somos apenas colegas de trabalho; somos um
-              time unido, onde as ideias circulam livremente, e as forças de
-              cada indivíduo se somam para gerar soluções criativas e poderosas.
-              All Hands on Deck é mais do que um lema para nós, é uma prática
-              diária.
+            Acreditamos que as grandes ideias surgem quando diferentes perspectivas se encontram. Por isso, nossa cultura é colaborativa e multidisciplinar. Não somos apenas colegas de trabalho; somos um time unido, onde as ideias circulam livremente e as forças de cada indivíduo se somam para gerar soluções criativas e poderosas. All Hands on Deck é mais do que um lema para nós: é uma prática diária.
             </p>
           </div>
         </section>
@@ -47,11 +41,7 @@ const about = () => {
             <div className="container mx-auto"></div>
             <div className="w-4/4">
               <p className="text-xl text-left font-light animate-fadeIn">
-                Com uma equipe de jovens visionários e uma paixão imensa por
-                transformar ideias em realidades, a OnMídia tem se consolidado
-                como uma verdadeira força criativa no mercado. Nosso trabalho é
-                guiado por uma busca incessante pela perfeição e pela vontade de
-                desbravar novos horizontes da comunicação.
+              Com uma equipe de jovens visionários e uma paixão imensa por transformar ideias em realidade, a OnMídia tem se consolidado como uma verdadeira força criativa no mercado. Nosso trabalho é guiado por uma busca incessante pela perfeição e pela vontade de explorar novos horizontes da comunicação.
               </p>
             </div>
           </div>
@@ -60,8 +50,7 @@ const about = () => {
 
         <section className="p-4 conteiner md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
           <h2 className="eading-tight text-3xl md:text-4xl md:leading-tight font-bold uppercase text-black animate-fadeIn">
-            Somos movidos pelo desejo constante de reinventar, de transformar o
-            tradicional em algo produtivo.
+          Somos movidos pelo desejo constante de reinventar e transformar o tradicional em algo disruptivo
           </h2>
         </section>
         {/* 

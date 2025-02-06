@@ -110,22 +110,20 @@ const home: React.FC = () => {
         </section>
 
         <section
-          className="py-32 bg-fixed bg-contain md:h-screen items-center justify-center content-center"
+          className="py-32 bg-fixed bg-contain items-center justify-center content-center"
           style={{
             backgroundImage: `url(${BG})`,
           }}
         >
           <div className="container md:w-[1280px] mx-auto text-left text-gray-300 grid lg:flex gap-4">
-            <div className="lg:w-2/4 p-4 lg:py-12 grid gap-4 text-2xl">
+            <div className="lg:w-2/4 p-4 lg:py-12 space-y-4 text-2xl">
               <h2 className="text-4xl lg:text-6xl font-bold text-white uppercase animate-fadeIn">
                 O que fazemos
               </h2>
               <p className="text-xl animate-fadeIn">
-                Reunimos a expertise certa com o melhor uso da tecnologia para
-                criar experiências que moldam os relacionamentos das pessoas com
-                as marcas em todo o seu ecossistema.
+              Reunimos a expertise certa com o melhor uso da tecnologia para criar experiências que moldam o relacionamento das pessoas com as marcas em todo o seu ecossistema.
               </p>
-              <p className="text-xl font-medium animate-fadeIn">
+              <p className="text-xl font-bold text-white animate-fadeIn">
                 Veja como podemos ajudar.
               </p>
             </div>
