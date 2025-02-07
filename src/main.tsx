@@ -11,6 +11,7 @@ import RuralSummit from './assets/audiovisual/RuralSummit';
 import SynConsult from './assets/cases/SynConsult';
 import Bauny from './assets/audiovisual/Bauny';
 import BySolution from './assets/cases/BySolution';
+import CourtSide from './assets/cases/CourtSide';
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/cases/giter",
     element: <Giter />  
+  },
+  {
+    path: "/cases/court-side",
+    element: <CourtSide />  
   }
 ])
 

@@ -17,7 +17,7 @@ const Bauny = () => {
   return (
     <ObserverProvider>
       <Header />
-      <section className="py-24 p-4 md:pt-44 container flex justify-between mx-auto  animate-fadeIn">
+      <section className="py-24 p-4 md:pt-44 container md:w-[1280px] flex justify-between mx-auto md:p-0 animate-fadeIn">
         <div className="grid gap-8">
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             Bauny -
@@ -38,7 +38,7 @@ const Bauny = () => {
           <span className="text-2xl">2024</span>
         </div>
       </section>
-      <section className="w-full p-4 grid gap-2">
+      <section className="w-full p-4 md:mt-12 grid gap-2">
           <ReactPlayer
             ref={playerRef}
             url="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BAUNY-TEASER-2024_compress.mp4"
@@ -93,19 +93,22 @@ const Bauny = () => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
+      <section className="container md:w-[1280px] mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
         <div className="container mx-auto">
           <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
         </div>
         <div className="container mx-auto gap-4 grid">
           <p>
-          Marcamos presença na BEAUTY SHOW 2024 cobrindo a BAUNY COSMÉTICOS mostrando o seu poder na arte de brilhar! 
+          Estivemos na <b>BEAUTY SHOW 2024</b> realizando a cobertura exclusiva da <b>Bauny Cosméticos</b>, traduzindo em imagens toda a sua excelência e protagonismo no mercado da beleza. 
           </p>
           <p>
-          Tivemos a responsabilidade de registrar os melhores momentos do STAND da Bauny com seus melhores lançamentos, influenciadores e muito mais. O processo de estruturação do projeto começou logo no início do mês do evento, onde tivemos a primeira reunião para a alinhar as expectativas desse grande momento para a Bauny.
+          Desde a fase de planejamento, conduzimos um trabalho estratégico minucioso para assegurar que cada detalhe deste momento fosse registrado com precisão. Nossa equipe acompanhou de perto os três dias de evento, capturando os lançamentos mais aguardados, a interação com influenciadores e toda a atmosfera vibrante do estande da Bauny.
           </p>
           <p>
-          Montamos uma equipe para cobrir os 3 dias de evento onde reunimos conteúdos e depoimentos para garantir a melhor entrega no Aftermovie que você acompanha todo o material aqui e no nosso canal do Youtube.
+          Com um olhar cinematográfico e um compromisso inegociável com a qualidade, reunimos conteúdos exclusivos e depoimentos impactantes para compor o Aftermovie oficial — uma produção que reflete a grandiosidade da marca e a energia inesquecível do evento.
+          </p>
+          <p>
+          Confira o resultado desse trabalho excepcional aqui e em nosso canal no YouTube.
           </p>
         </div>
       </section>
@@ -127,9 +130,9 @@ const Bauny = () => {
           />
         </div>
       </div>
-      <section className="p-4 flex container mx-auto uppercase py-12">
+      <section className="p-4 flex container md:w-[1280px] mx-auto uppercase py-12">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold">Time</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">Time</h2>
         </div>
         <div className="container mx-auto grid gap-4 md:gap-12">
           <div>

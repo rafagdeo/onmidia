@@ -13,13 +13,12 @@ const about = () => {
         <section className="container md:w-[1280px] mx-auto grid md:gap-12 md:p-0 p-4 gap-4 pt-32 lg:py-52">
           <div className="p-0">
             <h1 className="w-full md:w-3/4 eading-tight text-2xl lg:text-5xl md:leading-tight font-bold uppercase text-black animate-fadeIn">
-              Somos movidos pelo desejo constante de reinventar, de transformar
-              o tradicional em algo disruptivo.
+            Somos movidos pelo desejo constante de reinventar e de transformar o tradicional em algo disruptivo. 
             </h1>
           </div>
           <div className="items-end justify-end grid gap-4 md:pl-40 lg:pl-96">
             <p className="text-xl text-right font-light animate-fadeIn">
-            Acreditamos que as grandes ideias surgem quando diferentes perspectivas se encontram. Por isso, nossa cultura é colaborativa e multidisciplinar. Não somos apenas colegas de trabalho; somos um time unido, onde as ideias circulam livremente e as forças de cada indivíduo se somam para gerar soluções criativas e poderosas. All Hands on Deck é mais do que um lema para nós: é uma prática diária.
+            Com uma equipe de jovens visionários e uma paixão genuína por transformar ideias em realidade, a OnMídia se destaca como uma força criativa em constante evolução. Nosso trabalho é impulsionado pela busca incansável pela excelência e vontade de explorar novas fronteiras da comunicação, sempre inovando e criando conexões autênticas que fazem a diferença. 
             </p>
           </div>
         </section>
@@ -58,11 +57,7 @@ const about = () => {
         <Team />
         <section className="p-4 w-[1280px] md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
           <p className="text-xl text-left font-light animate-fadeIn">
-            Buscamos potencializar o sucesso do cliente, construindo e
-            conectando soluções únicas, criativas e inovadoras para cada marca.
-            Acreditamos que o verdadeiro sucesso não está apenas na execução de
-            estratégias, mas na criação de experiências que fazem a diferença no
-            mercado.
+          Nosso compromisso é impulsionar o sucesso de cada cliente, desenvolvendo soluções únicas, criativas e inovadoras que conectam marcas ao seu verdadeiro potencial. Acreditamos que o sucesso vai além da execução de estratégias—ele está na criação de experiências autênticas e impactantes que diferenciam e fortalecem a presença no mercado.
           </p>
         </section>
         <section
@@ -75,22 +70,22 @@ const about = () => {
             <div className="grid items-center gap-2">
               <CountUp
                 start={0}
-                end={40}
+                end={250}
                 duration={2}
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Projetos entregues</h3>
+              <h3 className="font-medium text-gray-300">Clientes</h3>
             </div>
             <div className="grid items-center gap-2">
               <CountUp
                 start={0}
-                end={20}
+                end={320}
                 duration={2}
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Marcas criadas</h3>
+              <h3 className="font-medium text-gray-300">Projetos entreguesas</h3>
             </div>
             <div className="grid items-center gap-2">
               <CountUp
@@ -100,17 +95,27 @@ const about = () => {
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Clientes atendidos</h3>
+              <h3 className="font-medium text-gray-300">Sites desenvolvidos</h3>
             </div>
             <div className="grid items-center gap-2">
               <CountUp
                 start={0}
-                end={80}
+                end={57}
                 duration={2}
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Eventos realizados</h3>
+              <h3 className="font-medium text-gray-300">Marcas criadas</h3>
+            </div>
+            <div className="grid items-center gap-2">
+              <CountUp
+                start={0}
+                end={88}
+                duration={2}
+                delay={0}
+                className="text-5xl md:text-7xl font-bold"
+              />
+              <h3 className="font-medium text-gray-300">Produções audiovisuais</h3>
             </div>
             <div className="grid items-center gap-2">
               <CountUp
@@ -120,7 +125,7 @@ const about = () => {
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Vídeos produzidos</h3>
+              <h3 className="font-medium text-gray-300">Eventos produzidos</h3>
             </div>
           </div>
         </section>

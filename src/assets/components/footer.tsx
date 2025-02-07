@@ -58,7 +58,7 @@ const Footer = () => {
           
         </div>
         <div>
-          <ul className="ml-0 space-y-2 grid md:ml-32">
+          <ul className="md:ml-0 space-y-2 grid lg:ml-32">
             <a
               href="/"
               className="hover:text-secundary hover:underline hover:pl-4"

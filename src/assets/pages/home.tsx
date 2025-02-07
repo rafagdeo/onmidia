@@ -62,9 +62,9 @@ const home: React.FC = () => {
             <div className="grid gap-2 text-left h-28 md:h-52 content-end">
               <p className="uppercase">
                 Mais que uma agência,
-                <br /> somos o parceiro para o <br />
+                <br /> somos o parceiro estratégico para  <br />
                 <b className="font-bold uppercase underline">
-                  futuro do seu negócio
+                  futuro do seu negócio.
                 </b>
                 .
               </p>
@@ -100,10 +100,10 @@ const home: React.FC = () => {
 
           <div className="lg:w-1/2 mt-3 lg:mt-96">
             <p className="text-gray-600 text-xl mb-4">
-            O nosso propósito vai além de criar soluções para marcas: queremos tornar as operações mais práticas e sustentáveis, de forma inteligente, para viver uma vida mais humana. Em cada estratégia, buscamos equilibrar a inovação com a responsabilidade, criando ações que não só geram resultados, mas também têm um impacto positivo na sociedade e no meio ambiente.
+            Nosso propósito vai além de criar soluções para marcas: queremos transformar operações em processos mais inteligentes, sustentáveis e eficientes, sempre com foco no humano. Cada estratégia que desenvolvemos busca equilibrar inovação e responsabilidade, garantindo resultados que não apenas impulsionam negócios, mas também geram um impacto positivo na sociedade e no meio ambiente. 
             </p>
             <p className="text-gray-600 text-xl mb-4">
-            A cultura da OnMídia é a alma da nossa jornada. Somos uma empresa jovem, inovadora e ousada, movida por um amor único e imenso por comunicação estratégica, criatividade e transformação digital. Nossa cultura é centrada em princípios sólidos, mas também na capacidade de evoluir constantemente, antecipando tendências e abraçando a inovação.
+            A cultura da OnMídia é o que nos move. Somos uma agência de marketing jovem, inovadora e ousada, apaixonada por comunicação estratégica, criatividade e transformação digital. Nossa essência combina princípios sólidos com a flexibilidade para evoluir continuamente, antecipando tendências e abraçando a inovação para criar conexões autênticas e relevantes. 
             </p>
             
           </div>
@@ -245,7 +245,7 @@ const home: React.FC = () => {
           Pronto para trabalharmos juntos?
           </h2>
           <h2 className="font-bold text-3xl md:text-5xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
-            baixe nosso mediakit
+          Veja nosso mediakit 
           </h2>
           <a
             href={fileUrl}

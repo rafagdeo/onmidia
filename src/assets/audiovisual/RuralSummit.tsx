@@ -17,7 +17,7 @@ const RuralSummit = () => {
   return (
     <ObserverProvider>
       <Header />
-      <section className="py-24 p-4 md:pt-44 container flex justify-between mx-auto  animate-fadeIn">
+      <section className="py-24 p-4 md:pt-44 container md:w-[1280px] flex justify-between mx-auto md:p-0 animate-fadeIn">
         <div className="grid gap-8">
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             Rural Summit
@@ -41,7 +41,7 @@ const RuralSummit = () => {
           <span className="text-2xl">2024</span>
         </div>
       </section>
-      <section className="w-full p-4 grid gap-2">
+      <section className="w-full p-4 md:mt-12 grid gap-2">
           <ReactPlayer
             ref={playerRef}
             url="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/RSUMMIT_2024_VIDEO_OFICIAL.mp4"
@@ -96,7 +96,7 @@ const RuralSummit = () => {
           </div>
         </div>
       </section>
-      <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
+      <section className="container md:w-[1280px] mx-auto grid md:flex py-8 md:py-32 gap-4 p-4">
         <div className="container mx-auto">
           <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
         </div>
@@ -133,7 +133,7 @@ const RuralSummit = () => {
           />
         </div>
       </div>
-      <section className="p-4 flex container mx-auto uppercase py-12">
+      <section className="p-4 flex container md:w-[1280px] mx-auto uppercase py-12">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold">Time</h2>
         </div>

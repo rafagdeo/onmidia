@@ -27,7 +27,7 @@ const viz = () => {
                   </div>
         </div>
         <div className='pt-4'>
-          <span className='text-2xl'>2025</span>
+          <span className='text-2xl'>2024</span>
         </div>
       </section>
       <section className="w-full p-4 flex-wrap">

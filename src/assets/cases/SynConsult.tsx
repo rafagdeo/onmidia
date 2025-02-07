@@ -11,7 +11,7 @@ const SynConsult = () => {
           backgroundImage: `url(https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-1.webp)`,
         }}
       ></section>
-      <section className="py-24 p-4 md:py-44 container flex justify-between mx-auto">
+      <section className="py-24 p-4 md:p-0 md:py-44 container md:w-[1280px] flex justify-between mx-auto">
         <div className="grid gap-8">
           <h1 className="text-3xl md:text-6xl font-bold uppercase">
             SynConsult
@@ -26,7 +26,7 @@ const SynConsult = () => {
                   </div>
         </div>
         <div className='pt-4'>
-          <span className='text-2xl'>2025</span>
+          <span className='text-2xl'>2024</span>
         </div>
       </section>
       <section className="w-full p-4 flex-wrap">
@@ -34,7 +34,7 @@ const SynConsult = () => {
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-3.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-4.webp" alt="" className='w-full'/>
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/SynConsult_Sessao-5.webp" alt="" className='w-full'/>
-        <section className="container mx-auto grid md:flex py-8 md:py-32 gap-4">
+        <section className="container md:w-[1280px] mx-auto grid md:flex py-8 md:py-32 gap-4">
           <div className="container mx-auto">
             <h2 className="uppercase font-bold text-4xl">Estratégia</h2>
           </div>
@@ -57,7 +57,7 @@ const SynConsult = () => {
         <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/synconsult_01.jpg" alt="" className='w-full'/>
       </section>
 
-      <section className="container mx-auto p-4 flex py-12">
+      <section className="container md:w-[1280px] mx-auto p-4 flex py-12">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold uppercase">Time</h2>
         </div>
