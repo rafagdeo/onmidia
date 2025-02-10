@@ -190,7 +190,7 @@ const CourtSide = () => {
           </div>
           <div>
             <h3 className="font-bold text-2xl">Designer e Motion</h3>
-            <p>Designer e Motion </p>
+            <p>Rafa Purgatto</p>
           </div>
         </div>
       </section>

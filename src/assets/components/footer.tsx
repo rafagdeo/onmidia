@@ -2,6 +2,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa6";
+import Swal from 'sweetalert2'
 
 const Footer = () => {
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -23,7 +24,11 @@ const Footer = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      Swal.fire({
+        title: "Obrigado!",
+        text: "Recebemos o seu e-mail de contato!",
+        icon: "success",
+      });
     }
   };
 
@@ -72,7 +77,7 @@ const Footer = () => {
               <li>Quem Somos</li>
             </a>
             <a
-              href="#"
+              href="https://tintim.link/whatsapp/df54585b-6383-4cbe-a926-f38e01e264fe/90f93659-5946-4687-b2a2-86ff23eaf47c" target="_blank"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Contato</li>
@@ -82,13 +87,13 @@ const Footer = () => {
         <div className="text-md">
           <ul className="space-y-2 grid">
             <a
-              href="#"
+              href="/politica-de-privacidade"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Política de Privacidade</li>
             </a>
             <a
-              href="#"
+              href="/termos-e-condicoes"
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Termos e condições</li>

@@ -1,7 +1,7 @@
 const projects = () => {
   return (
     <div>
-      <a href="/cases/court-side" className="container md:w-[1280px] mx-auto p-4 grid gap-2">
+      <a href="/court-side" className="container md:w-[1280px] mx-auto p-4 grid gap-2">
         <div className="relative z-0 overflow-hidden rounded-lg">
           <img
             src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Projeto_CourtSide_TennisPrancheta-17.jpg"
@@ -25,7 +25,7 @@ const projects = () => {
         </div>
       </a> 
       <div className="container md:w-[1280px] mx-auto grid-cols-1 grid md:grid-cols-2 gap-4">
-      <a href="/audiovisual/bauny" className="p-4 flex-col rounded-lg flex gap-2">
+      <a href="/bauny" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/IMG_0236.jpg"
@@ -48,7 +48,7 @@ const projects = () => {
             </div>
           </div>
         </a>
-        <a href="/cases/gonbank" className="p-4 flex-col rounded-lg flex gap-2">
+        <a href="/gonbank" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/GonBank_7.webp"
@@ -75,7 +75,7 @@ const projects = () => {
           </div>
         </a>
         
-        <a href="/cases/bysolution" className="p-4 flex-col rounded-lg flex gap-2">
+        <a href="/bysolution" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/BySolution_Sessao-2.webp"
@@ -101,7 +101,7 @@ const projects = () => {
             </div>
           </div>
         </a>
-        <a href="/cases/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
+        <a href="/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Logo_Syn_Consult-1.gif"
@@ -123,7 +123,7 @@ const projects = () => {
         </a>
         
         
-        <a href="/audiovisual/ruralsummit" className="p-4 flex-col rounded-lg flex gap-2">
+        <a href="/ruralsummit" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/77-IMG_6741.jpg"
@@ -149,7 +149,7 @@ const projects = () => {
             </div>
           </div>
         </a>
-        <a href="/cases/giter" className="p-4 flex-col rounded-lg flex gap-2">
+        <a href="/giter" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Gitter_corrigido.gif"

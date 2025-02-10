@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Permite acesso a arquivos JS, CSS, imagens e fontes corretamente
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Garante que arquivos JS sejam tratados como JavaScript
+AddType application/javascript .js
+AddType text/javascript .js
+
+# Garante que arquivos CSS sejam tratados corretamente
+AddType text/css .css
+

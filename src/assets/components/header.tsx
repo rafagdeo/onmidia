@@ -15,7 +15,7 @@ const header = () => {
       <div className="w-[1280px] z-20 mx-auto flex items-center justify-between">
         <div className="logo">
           <a href="/">
-            <img src="https://onmidiamkt.com.br/wp-content/uploads/2023/10/cropped-onmidia-logo.png" alt="logo__onmidia" className='h-[30px]'/>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Logo_OnMidia_Color_V1.png" alt="logo__onmidia" className='h-[30px]'/>
           </a>
         </div>
         <nav className="navbar">
@@ -27,7 +27,7 @@ const header = () => {
               <a href="/quem-somos">Quem Somos</a>
             </li>
             <li className='px-4 py-1 rounded-full bg-black hover:bg-primary text-white'>
-              <a href="/#contact">Contato</a>
+              <a target="_blank" href="https://tintim.link/whatsapp/df54585b-6383-4cbe-a926-f38e01e264fe/90f93659-5946-4687-b2a2-86ff23eaf47c">Contato</a>
             </li>
           </ul>
         </nav>
@@ -50,7 +50,7 @@ const header = () => {
                 <a href="/quem-somos">Quem somos</a>
               </li>
               <li className='p-2 hover:bg-primary hover:text-white'>
-                <a href="/#contact">Contato</a>
+                <a href="https://tintim.link/whatsapp/df54585b-6383-4cbe-a926-f38e01e264fe/90f93659-5946-4687-b2a2-86ff23eaf47c">Contato</a>
               </li>
             </ul>
             <div className='px-2 py-4 '>
@@ -73,9 +73,7 @@ const header = () => {
               </div>
             </div>
           </div>
-        )}
-
-              
+        )}    
     </header>
   );
 };

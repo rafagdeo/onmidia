@@ -55,7 +55,7 @@ const about = () => {
         {/* 
         <Carrossel /> */}
         <Team />
-        <section className="p-4 w-[1280px] md:w-[1127px] mx-auto text-center content-center py-12 md:py-32">
+        <section className="p-4 container md:w-[1280px] mx-auto text-center content-center py-12 md:py-32">
           <p className="text-xl text-left font-light animate-fadeIn">
           Nosso compromisso é impulsionar o sucesso de cada cliente, desenvolvendo soluções únicas, criativas e inovadoras que conectam marcas ao seu verdadeiro potencial. Acreditamos que o sucesso vai além da execução de estratégias—ele está na criação de experiências autênticas e impactantes que diferenciam e fortalecem a presença no mercado.
           </p>
@@ -85,7 +85,7 @@ const about = () => {
                 delay={0}
                 className="text-5xl md:text-7xl font-bold"
               />
-              <h3 className="font-medium text-gray-300">Projetos entreguesas</h3>
+              <h3 className="font-medium text-gray-300">Projetos entregues</h3>
             </div>
             <div className="grid items-center gap-2">
               <CountUp
