@@ -4,33 +4,54 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa6";
 import Swal from 'sweetalert2'
 
+declare global {
+  interface Window {
+    dataLayer: Record<string, any>[];
+  }
+}
+
+const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
+  const formData = new FormData(event.target as HTMLFormElement);
+
+  formData.append("access_key", "2d7d77ec-2060-44e3-94b9-0ba8cd1fba98");
+
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+
+  const res = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: json,
+  }).then((res) => res.json());
+
+  if (res.success) {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "form_submit",
+      form_name: "Contato", 
+      status: "success",
+      email: object.email, 
+    });
+    Swal.fire({
+      title: "Obrigado!",
+      text: "Recebemos o seu e-mail de contato!",
+      icon: "success",
+    });
+  } else {
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Alguma coisa deu errado!",
+      footer: '<a href="https://tintim.link/whatsapp/df54585b-6383-4cbe-a926-f38e01e264fe/90f93659-5946-4687-b2a2-86ff23eaf47c" target="_blank">Entre em contato pelo WhatsApp.</a>'
+    });
+  }
+};
+
 const Footer = () => {
-  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const formData = new FormData(event.target as HTMLFormElement);
-
-    formData.append("access_key", '2d7d77ec-2060-44e3-94b9-0ba8cd1fba98');
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
-      Swal.fire({
-        title: "Obrigado!",
-        text: "Recebemos o seu e-mail de contato!",
-        icon: "success",
-      });
-    }
-  };
 
   return (
     <div className="bg-[#232323] text-white py-20 px-4">
