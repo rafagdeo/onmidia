@@ -3,6 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa6";
 import Swal from 'sweetalert2'
+import InputMask from "react-input-mask";
 
 declare global {
   interface Window {
@@ -125,34 +126,35 @@ const Footer = () => {
         <div className="formulario">
           <form onSubmit={onSubmit} className="grid gap-2">
             <input
-              name="Nome"
+              name="firstname"
               type="text"
               placeholder="Nome"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <input
-              name="Empresa"
+              name="company"
               type="text"
               placeholder="Empresa"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
-            <input
-              name="Telefone"
+            <InputMask
+              name="phone"
               type="tel"
+              mask="(99) 99999-9999"
               placeholder="Telefone"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <input
-              type="E-mail"
+              type="email"
               placeholder="E-mail"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
             <textarea
-              name="Mensagem"
+              name="message"
               placeholder="Escreva sua mensagem"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
