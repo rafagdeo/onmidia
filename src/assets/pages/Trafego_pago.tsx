@@ -361,17 +361,8 @@ const Trafego_pago = () => {
             </p>
           </div>
         </div>
-        <div
-          className="md:h-screen"
-          style={{
-            backgroundImage: `url(https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg)`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            borderRadius: 20,
-          }}
-        ></div>
-        <div className="text-center">
+        <div className="text-center space-y-8">
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg" alt="" className='rounded-md'/>
           <p className="pb-12">
             Enquanto seus concorrentes já estão faturando alto,{' '}
             <b>
@@ -384,7 +375,7 @@ const Trafego_pago = () => {
           </p>
           <a
             href="#form"
-            className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
+            className="bg-secundary hover:bg-secundary/80 text-white font-medium rounded-full p-4 uppercase"
           >
             FALE COM UM ESPECIALISTA
           </a>
