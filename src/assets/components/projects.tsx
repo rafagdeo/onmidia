@@ -74,7 +74,26 @@ const projects = () => {
             </div>
           </div>
         </a>
-        
+        <a href="/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
+          <div className="relative z-0 overflow-hidden rounded-lg">
+            <img
+              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Logo_Syn_Consult-1.gif"
+              alt="rural"
+              className="h-full md:h-[338px] w-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="grid gap-2">
+            <h3 className="text-xl pt-2 font-bold uppercase">SynConsult</h3>
+            <div className="flex-wrap flex gap-2 items-center">
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+                Strategy
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
+              </span>
+            </div>
+          </div>
+        </a>
         <a href="/bysolution" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
@@ -101,26 +120,7 @@ const projects = () => {
             </div>
           </div>
         </a>
-        <a href="/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
-          <div className="relative z-0 overflow-hidden rounded-lg">
-            <img
-              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/Animacao_Logo_Syn_Consult-1.gif"
-              alt="rural"
-              className="h-full md:h-[338px] w-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
-            />
-          </div>
-          <div className="grid gap-2">
-            <h3 className="text-xl pt-2 font-bold uppercase">SynConsult</h3>
-            <div className="flex-wrap flex gap-2 items-center">
-              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-                Strategy
-              </span>
-              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
-              </span>
-            </div>
-          </div>
-        </a>
+        
         
         
         <a href="/ruralsummit" className="p-4 flex-col rounded-lg flex gap-2">

@@ -124,7 +124,7 @@ const Trafego_pago = () => {
           </form>
         </div>
       </section>
-      <section className="w-full mx-auto text-center uppercase py-12">
+      <section className="w-full mx-auto text-center uppercase py-24">
         <h2 className="font-medium text-md md:text-3xl p-4">
           DIVERSAS EMPRESAS JÁ CONHECEM <br />E CONFIAM NO NOSSO TRABALHO.
           <br /> <b>CONHEÇA ALGUMAS DELAS:</b>
@@ -132,7 +132,7 @@ const Trafego_pago = () => {
         <Carrossel />
       </section>
 
-      <section className="container md:w-[1280px] p-4 mx-auto py-12 space-y-12">
+      <section className="container md:w-[1280px] p-4 mx-auto py-32 space-y-12">
         <div className="grid md:flex justify-between itens-center gap-4">
           <div className="container mx-auto">
             <h2 className="text-xl md:text-3xl font-bold">
@@ -189,7 +189,7 @@ const Trafego_pago = () => {
         <div className='text-center'>
         <a
           href="#form"
-          className="border rounded-full px-6 py-2 hover:bg-primary hover:text-white font-light"
+          className="border rounded-full p-4 bg-primary text-white hover:bg-secundary font-medium"
         >
           FALE COM NOSSO ESPECIALISTA
         </a>
@@ -203,6 +203,7 @@ const Trafego_pago = () => {
           backgroundRepeat: `no-repeat`,
           backgroundPosition: `left`,
           backgroundAttachment: `fixed`,
+          backgroundSize: `cover`
         }}
       >
         <div className="container md:w-[1280px] p-4 mx-auto text-center py-12 md:py-32 space-y-12">
@@ -270,7 +271,7 @@ const Trafego_pago = () => {
         </div>
       </section>
 
-      <section className="container md:w-[1280px] p-4 mx-auto md:flex md:py-12">
+      <section className="container md:w-[1280px] p-4 mx-auto md:flex md:py-32">
         <div className="container space-y-4">
           <h2 className="text-3xl font-medium">
             ESTRATÉGIA <b>IDEAL</b>
@@ -339,8 +340,18 @@ const Trafego_pago = () => {
           </h2>
         </div>
       </section>
-      <section className="container md:w-[1280px] p-4 mx-auto pb-80">
+      <section className="container md:w-[1280px] p-4 mx-auto mb-60">
         <Carrossel_services />
+        
+      </section>
+
+      <section className='container mx-auto text-center mb-32'>
+      <a
+          href="#form"
+          className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
+        >
+          FALE COM UM ESPECIALISTA
+        </a>
       </section>
 
       <section className="container md:w-[1280px] p-4 mx-auto py-12 space-y-12">
