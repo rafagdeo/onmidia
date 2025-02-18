@@ -1,4 +1,3 @@
-
 const carrossel__logos = () => {
   const logos = [
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-1.webp',
@@ -14,9 +13,8 @@ const carrossel__logos = () => {
     'https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/logo-12.webp',
   ];
   return (
-    <section className='bg-gray-50'>
-      <div id="logos" className="w-full py-12 md:py-24 ">
-        <h2 className="font-bold text-center text-3xl md:text-4xl uppercase animate-fadeIn">Nossos clientes</h2>
+    <section>
+      <div id="logos" className="w-full">
         <div className="pt-12 overflow-hidden">
           <div className="flex space-x-24 animate-slide">
             {logos.concat(logos).map((logo, index) => (

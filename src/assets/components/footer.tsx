@@ -56,7 +56,7 @@ const Footer = () => {
 
   return (
     <div className="bg-[#232323] text-white py-20 px-4">
-      <div className="container p-4 mx-auto grid md:grid-cols-4 gap-4 uppercase">
+      <div className="container md:w-[1280px] p-4 mx-auto grid md:grid-cols-4 gap-4 uppercase">
         <div className="text-md flex-col flex justify-between">
           <div className="grid space-y-2">
           <h3 className="">São Paulo</h3>

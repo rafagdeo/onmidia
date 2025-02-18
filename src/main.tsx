@@ -14,6 +14,7 @@ import BySolution from './assets/cases/BySolution'
 import CourtSide from './assets/cases/CourtSide'
 import Politica_de_privacidade from './assets/pages/Politica_de_privacidade';
 import Termos_e_Condicoes from './assets/pages/Termos_e_Condicoes';
+import Trafego_pago from './assets/pages/Trafego_pago';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/quem-somos",
     element: <About />
+  },
+  {
+    path: "/trafego-pago",
+    element: <Trafego_pago />
   },
   {
     path: "/ruralsummit",

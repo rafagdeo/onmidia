@@ -239,7 +239,11 @@ const home: React.FC = () => {
             </div>
           </div>
         </section>
+        <section className='bg-gray-50 w-full py-12 md:py-24'>
+        <h2 className="font-bold text-center text-3xl md:text-4xl uppercase animate-fadeIn">Nossos clientes</h2>
         <Carrossel />
+        </section>
+        
         <section id="contact" className="my-12 md:my-36 container md:w-[950px] grid mx-auto text-center align-center content-center justify-center ">
           <h2 className="font-bold text-3xl md:text-5xl intersect:motion-preset-slide-up motion-delay-0 uppercase ">
           Pronto para trabalharmos juntos?
