@@ -64,17 +64,16 @@ const Trafego_pago = () => {
     <div>
       <Header />
       <section
-        className="container p-4 md:w-[1280px] mx-auto grid md:flex uppercase pt-24 md:pt-40 md:pb-12 gap-12"
+        className="container p-4 md:w-[1280px] mx-auto grid md:flex pt-24 md:pt-40 md:pb-12 gap-12"
         id="form"
       >
-        <div className="container mx-auto content-center text-3xl space-y-4">
-          <h1 className="font-medium">
+        <div className="container mx-auto content-center space-y-12">
+          <h1 className="font-medium text-3xl uppercase">
             AGÊNCIA DE TRÁFEGO PAGO <b>ESPECIALIZADA</b> EM GERAR CLIENTES NO
             WHATSAPP
           </h1>
-          <p className="text-[20px] font-light">
-            SOLUÇÕES COMPLETAS PARA TRANSFORMAR SEU INVESTIMENTO EM ANÚNCIOS E
-            VENDAS REAIS
+          <p>
+          Soluções completas para <br />transformar seu investimento em<br /> anúncios e vendas reais.
           </p>
         </div>
         <div className="bg-[#f5f5f5] rounded-2xl container mx-auto p-4 md:p-12">
@@ -109,9 +108,9 @@ const Trafego_pago = () => {
                 className="text-black"
                 required
               />
-              <label className="text-[12px]">
-                Ao clicar estou de acordo com os termos de uso e Política de
-                Privacidade
+              <label className="text-[13px]">
+                Ao clicar estou de acordo com os <a target='_blank' href="https://onmidiamkt.com.br/termos-e-condicoes" className='hover:text-primary uppercase'>Termos de uso </a> e <a className='hover:text-primary uppercase' target='_blank' href="https://onmidiamkt.com.br/politica-de-privacidade">Política de
+                Privacidade</a> 
               </label>
             </div>
 
@@ -124,7 +123,7 @@ const Trafego_pago = () => {
           </form>
         </div>
       </section>
-      <section className="w-full mx-auto text-center uppercase py-24">
+      <section className="w-full mx-auto text-center uppercase py-12 mt-12 bg-[#F0F0F0]">
         <h2 className="font-medium text-md md:text-3xl p-4">
           DIVERSAS EMPRESAS JÁ CONHECEM <br />E CONFIAM NO NOSSO TRABALHO.
           <br /> <b>CONHEÇA ALGUMAS DELAS:</b>
@@ -132,42 +131,39 @@ const Trafego_pago = () => {
         <Carrossel />
       </section>
 
-      <section className="container md:w-[1280px] p-4 mx-auto py-32 space-y-12">
-        <div className="grid md:flex justify-between itens-center gap-4">
+      <section className="container md:w-[1280px] p-4 mx-auto py-12 md:py-32 md:space-y-24 space-y-12">
+        <div className="grid md:flex justify-between itens-center">
           <div className="container mx-auto">
-            <h2 className="text-xl md:text-3xl font-bold">
+            <h2 className="text-2xl md:text-3xl font-bold">
               ELEVE O NÍVEL DAS
               <br /> SUAS CAMPANHAS
             </h2>
           </div>
-          <div className="container mx-auto justify-end p-0 md:pl-44">
+          <div className="container mx-auto justify-end text-left md:text-right p-0">
             <p>
-              Não basta gerar conversas- é preciso transformar <br /> interações
+              Não basta gerar conversas- é <br />preciso transformar interações<br /> 
               em lucros.
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="space-y-4">
-            <span className="px-6 py-2 uppercase bg-secundary rounded-full text-white font-medium text-sm">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-40">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+            <span className="text-xl uppercase ">
               fase 1
             </span>
-            <p>Identifique as oportunidades ocultas com dados precisos.</p>
+            <p>Identifique as <br/>oportunidades ocultas <br/>com dados precisos.</p>
           </div>
-          <div className="space-y-4">
-            <span className="px-6 py-2 uppercase bg-secundary rounded-full text-white font-medium text-sm">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+            <span className="text-xl uppercase ">
               fase 2
             </span>
-            <p>Elimine os gargalos que estão travando suas conversões.</p>
+            <p>Elimine os gargalos que<br/> estão travando suas <br/>conversões.</p>
           </div>
-          <div className="space-y-4">
-            <span className="px-6 py-2 uppercase bg-secundary rounded-full text-white font-medium text-sm">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+            <span className="text-xl uppercase ">
               fase 3
             </span>
-            <p>
-              Direcione cada centavo para estratégias que realmente geram
-              retorno.
-            </p>
+            <p>Direcione cada centavo <br/>para estratégias que <br/>realmente geram <br/>retorno.</p>
           </div>
         </div>
         <div className="pt-12 container md:w-[1280px] grid md:flex">
@@ -271,48 +267,53 @@ const Trafego_pago = () => {
         </div>
       </section>
 
-      <section className="container md:w-[1280px] p-4 mx-auto md:flex md:py-32">
-        <div className="container space-y-4">
+      <section className="container md:w-[1280px] p-4 mx-auto py-12 md:pt-32">
+        <div className="container md:flex">
+          <div className='container'>
           <h2 className="text-3xl font-medium">
-            ESTRATÉGIA <b>IDEAL</b>
-            <br /> PARA TODOS OS NEGÓCIOS
+            ESTRATÉGIA <b>IDEAL</b><br/>
+            PARA TODOS OS <br/>NEGÓCIOS
           </h2>
+          </div>
+          <div className='container text-right'>
           <p>
-            Como mostramos em nossa metodologia, nós estudamos a fundo o seu
-            mercado e o seu negócio. Sendo assim, conseguimos adaptar as
-            estratégias para alcançar seus objetivos, independente de quais eles
+            Como mostramos em nossa metodologia, nós <br/>estudamos a fundo o seu
+            mercado e o seu <br/>negócio. Sendo assim, conseguimos adaptar as<br/>
+            estratégias para alcançar seus objetivos, <br/>independente de quais eles
             sejam.
           </p>
+          </div>
+          
         </div>
-        <div className="container">
-          <p className="border-b py-2 md:px-6 text-lg">
+        <div className="container mx-auto md:w-[950px] md:pt-32">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Lojas físicas:</b> Gere mais visitantes na sua loja ou venda pelo
             Whatsapp.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Clínicas:</b> Atrair mais clientes para a sua clínica pelo seu
             Whatsapp.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>E-commerce:</b> Lojas online de todos os nichos.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Petshop:</b> Faça seu petshop ser conhecido na região e aumente
             as vendas.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Restaurantes:</b> Aumente o número de visitantes e/ou pedidos no
             delivery.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Advogados:</b> Faça seu escritório ser conhecido e consiga ainda
             + clientes.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             <b>Prestador de serviço:</b> Aumente a demanda dos seus serviços e
             seja conhecido.
           </p>
-          <p className="border-b py-2 md:px-6 text-lg">
+          <p className="border-b p-4 md:px-6 text-lg border-black">
             Não viu seu nicho? Não tem problema! <b>Nós podemos te atender!</b>
           </p>
         </div>
@@ -330,10 +331,10 @@ const Trafego_pago = () => {
         className="w-full"
         style={{
           backgroundImage: `url(${BG_PURLE})`,
-          backgroundSize: `contain`,
+          backgroundSize: `cover`,
         }}
       >
-        <div className="container md:w-[950px] p-4 mx-auto pt-12 h-96">
+        <div className="container md:w-[950px] p-4 mx-auto py-24 h-[450px]">
           <h2 className="text-xl md:text-3xl font-medium text-center text-white">
             OFERECEMOS <b>SOLUÇÕES COMPLETAS</b> PARA EXTRAIR O MÁXIMO POTENCIAL
             DAS SUAS CAMPANHAS
@@ -345,7 +346,7 @@ const Trafego_pago = () => {
         
       </section>
 
-      <section className='container mx-auto text-center mb-32'>
+      <section className='container mx-auto text-center mb-24'>
       <a
           href="#form"
           className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
@@ -357,24 +358,24 @@ const Trafego_pago = () => {
       <section className="container md:w-[1280px] p-4 mx-auto py-12 space-y-12">
         <div className="grid md:flex justify-between itens-center gap-4">
           <div className="container mx-auto">
-            <h2 className="text-3xl font-medium">
+            <h2 className="text-2xl font-medium">
               SOMOS MOVIDOS PELO DESEJO CONSTANTE DE{' '}
-              <b>REINVENTAR E TRANSFORMAR</b> O TRADICIONAL EM ALGO DESRUPTIVO.
+              <b>REINVENTAR E TRANSFORMAR</b> O TRADICIONAL<br/> EM ALGO DESRUPTIVO.
             </h2>
           </div>
-          <div className="container mx-auto">
+          <div className="container text-right ">
             <p>
-              Com uma equipe de jovens visionários e uma paixão imensa por
-              transformar ideias em realidade, a OnMídia tem se consolidado como
-              uma verdadeira força criativa no mercado. Nosso trabalho é guiado
-              por uma busca incessante pela perfeição e pela vontade de explorar
-              novos horizontes da comunicação.
+              Com uma equipe de jovens visionários e uma <br/>paixão imensa por
+              transformar ideias em <br/>realidade, a OnMídia tem se consolidado como<br/>
+              uma verdadeira força criativa no mercado. Nosso <br/>trabalho é guiado
+              por uma busca incessante pela <br/>perfeição e pela vontade de explorar
+              novos <br/>horizontes da comunicação.
             </p>
           </div>
         </div>
-        <div className="text-center space-y-8">
-            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg" alt="" className='rounded-md'/>
-          <p className="pb-12">
+        <div className="text-center space-y-24 py-24">
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg" alt="team" className='rounded-3xl'/>
+          <p className="pb-24">
             Enquanto seus concorrentes já estão faturando alto,{' '}
             <b>
               a única dúvida que você deve ter é: por que deixar dinheiro na

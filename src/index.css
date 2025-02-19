@@ -42,7 +42,7 @@ h1 {
   line-height: 1.5; /* Black */
 }
 
-h2, span {
+h2 {
   font-family: 'Neuething Sans Test', sans-serif;
   font-weight: 800; /* ExtraBold */
 }
@@ -61,7 +61,10 @@ a, ul, li {
   font-family: 'Arimo', sans-serif;
   font-weight: 700; /* Bold */
 }
-
+span {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+}
 svg {
   display: block;
 }
