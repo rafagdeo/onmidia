@@ -1,5 +1,3 @@
-import Header from '../components/header';
-import Footer from '../components/footer';
 import Carrossel from '../components/carrossel__logos';
 import Icon1 from '../images/monitor (1) 1.png';
 import Icon2 from '../images/Vector.png';
@@ -62,12 +60,14 @@ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 const Trafego_pago = () => {
   return (
     <div>
-      <Header />
       <section
-        className="container p-4 md:w-[1280px] mx-auto grid md:flex pt-24 md:pt-40 md:pb-12 gap-12"
+        className="container p-4 md:w-[1280px] mx-auto grid md:flex pt-12 md:pt-28 md:pb-12 gap-12"
         id="form"
       >
         <div className="container mx-auto content-center space-y-12">
+          <a href="https://onmidiamkt.com.br">
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Logo_OnMidia_Color_V1.png" alt="logo-onmidia" className='w-60'/>
+          </a>
           <h1 className="font-medium text-3xl uppercase">
             AGÊNCIA DE TRÁFEGO PAGO <b>ESPECIALIZADA</b> EM GERAR CLIENTES NO
             WHATSAPP
@@ -76,8 +76,8 @@ const Trafego_pago = () => {
           Soluções completas para <br />transformar seu investimento em<br /> anúncios e vendas reais.
           </p>
         </div>
-        <div className="bg-[#f5f5f5] rounded-2xl container mx-auto p-4 md:p-12">
-          <form onSubmit={onSubmit} className="grid gap-4">
+        <div className="bg-[#f5f5f5] rounded-2xl container mx-auto p-4 md:p-12 text-sm">
+          <form onSubmit={onSubmit} className="flex flex-col gap-4">
             <input
               type="text"
               name="firstname"
@@ -116,7 +116,7 @@ const Trafego_pago = () => {
 
             <button
               type="submit"
-              className="bg-secundary hover:bg-secundary/80 text-white font-medium rounded-full p-4 uppercase"
+              className="bg-secundary hover:bg-secundary/80 text-white font-medium rounded-full p-4 uppercase w-60"
             >
               fale com um especialista
             </button>
@@ -147,19 +147,19 @@ const Trafego_pago = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-40">
-          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:bg-primary hover:text-white hover:border-primary">
             <span className="text-xl uppercase ">
               fase 1
             </span>
             <p>Identifique as <br/>oportunidades ocultas <br/>com dados precisos.</p>
           </div>
-          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:bg-primary hover:text-white hover:border-primary">
             <span className="text-xl uppercase ">
               fase 2
             </span>
             <p>Elimine os gargalos que<br/> estão travando suas <br/>conversões.</p>
           </div>
-          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:border-primary">
+          <div className="space-y-4 p-4 border-2 rounded-xl border-black flex flex-col justify-between h-55 hover:bg-primary hover:text-white hover:border-primary">
             <span className="text-xl uppercase ">
               fase 3
             </span>
@@ -185,7 +185,7 @@ const Trafego_pago = () => {
         <div className='text-center'>
         <a
           href="#form"
-          className="border rounded-full p-4 bg-primary text-white hover:bg-secundary font-medium"
+          className="border rounded-full p-4 bg-secundary text-white hover:bg-secundary/80 font-medium"
         >
           FALE COM NOSSO ESPECIALISTA
         </a>
@@ -275,7 +275,7 @@ const Trafego_pago = () => {
             PARA TODOS OS <br/>NEGÓCIOS
           </h2>
           </div>
-          <div className='container text-right'>
+          <div className='container text-left md:text-right mt-4'>
           <p>
             Como mostramos em nossa metodologia, nós <br/>estudamos a fundo o seu
             mercado e o seu <br/>negócio. Sendo assim, conseguimos adaptar as<br/>
@@ -285,40 +285,40 @@ const Trafego_pago = () => {
           </div>
           
         </div>
-        <div className="container mx-auto md:w-[950px] md:pt-32">
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+        <div className="container mx-auto md:w-[950px] py-8 md:pt-32">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Lojas físicas:</b> Gere mais visitantes na sua loja ou venda pelo
             Whatsapp.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Clínicas:</b> Atrair mais clientes para a sua clínica pelo seu
             Whatsapp.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>E-commerce:</b> Lojas online de todos os nichos.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Petshop:</b> Faça seu petshop ser conhecido na região e aumente
             as vendas.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Restaurantes:</b> Aumente o número de visitantes e/ou pedidos no
             delivery.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Advogados:</b> Faça seu escritório ser conhecido e consiga ainda
             + clientes.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             <b>Prestador de serviço:</b> Aumente a demanda dos seus serviços e
             seja conhecido.
           </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black">
+          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
             Não viu seu nicho? Não tem problema! <b>Nós podemos te atender!</b>
           </p>
         </div>
       </section>
-      <section className="content-center justify-center text-center pt-12 pb-24">
+      <section className="content-center justify-center text-center md:pt-12 pb-24">
         <a
           href="#form"
           className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
@@ -346,7 +346,7 @@ const Trafego_pago = () => {
         
       </section>
 
-      <section className='container mx-auto text-center mb-24'>
+      <section className='container mx-auto text-center mb-12 md:mb-24'>
       <a
           href="#form"
           className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
@@ -363,7 +363,7 @@ const Trafego_pago = () => {
               <b>REINVENTAR E TRANSFORMAR</b> O TRADICIONAL<br/> EM ALGO DESRUPTIVO.
             </h2>
           </div>
-          <div className="container text-right ">
+          <div className="container md:text-right text-left">
             <p>
               Com uma equipe de jovens visionários e uma <br/>paixão imensa por
               transformar ideias em <br/>realidade, a OnMídia tem se consolidado como<br/>
@@ -373,9 +373,9 @@ const Trafego_pago = () => {
             </p>
           </div>
         </div>
-        <div className="text-center space-y-24 py-24">
+        <div className="text-center space-y-12 md:space-y-24 py-12 md:py-24">
             <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/time-completo.jpg" alt="team" className='rounded-3xl'/>
-          <p className="pb-24">
+          <p className="pb-24 text-lg">
             Enquanto seus concorrentes já estão faturando alto,{' '}
             <b>
               a única dúvida que você deve ter é: por que deixar dinheiro na
@@ -393,7 +393,6 @@ const Trafego_pago = () => {
           </a>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
