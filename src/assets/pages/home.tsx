@@ -4,7 +4,6 @@ import ObserverProvider from '../components/ObserverProvider';
 import Projects from '../components/projects';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { TfiLayoutLineSolid } from 'react-icons/tfi';
-import { MdDownload } from 'react-icons/md';
 import Footer from '../components/footer';
 import BG from '../images/bg-purple.webp';
 import { GoArrowUpRight } from 'react-icons/go';
