@@ -7,7 +7,10 @@ import BG_PURLE from '../images/bg-purple.webp';
 import Carrossel_services from '../components/Carrossel_services';
 import Swal from 'sweetalert2';
 import InputMask from 'react-input-mask';
-
+import Video1 from '../videos/Gráfico_barra_novo.mp4'
+import Video2 from '../videos/Gráfico_2 (2).mp4'
+import { Helmet } from "react-helmet-async";
+ 
 declare global {
   interface Window {
     dataLayer: Record<string, any>[];
@@ -16,12 +19,12 @@ declare global {
 const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
   const formData = new FormData(event.target as HTMLFormElement);
-
+ 
   formData.append('access_key', '2d7d77ec-2060-44e3-94b9-0ba8cd1fba98');
-
+ 
   const object = Object.fromEntries(formData);
   const json = JSON.stringify(object);
-
+ 
   const res = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -30,7 +33,7 @@ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     },
     body: json,
   }).then((res) => res.json());
-
+ 
   if (res.success) {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
@@ -40,7 +43,7 @@ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
       email: object.email,
     });
     console.log('enviado com sucesso');
-    
+   
     Swal.fire({
       title: 'Obrigado!',
       text: 'Recebemos o seu e-mail de contato!',
@@ -56,10 +59,15 @@ const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     });
   }
 };
-
+ 
 const Trafego_pago = () => {
   return (
     <div>
+      <Helmet>
+      <title>OnMídia - Agência de Tráfego Pago em São Paulo</title>
+      <meta name="description" content="Atraia ainda mais clientes com anúncios estratégicos no Google Ads, Instagram e Facebook com a nossa Consultoria em Tráfego Pago." />
+      </Helmet>
+      
       <section
         className="container p-4 md:w-[1280px] mx-auto grid md:flex pt-12 md:pt-28 md:pb-12 gap-12"
         id="form"
@@ -110,10 +118,10 @@ const Trafego_pago = () => {
               />
               <label className="text-[13px]">
                 Ao clicar estou de acordo com os <a target='_blank' href="https://onmidiamkt.com.br/termos-e-condicoes" className='hover:text-primary uppercase'>Termos de uso </a> e <a className='hover:text-primary uppercase' target='_blank' href="https://onmidiamkt.com.br/politica-de-privacidade">Política de
-                Privacidade</a> 
+                Privacidade</a>
               </label>
             </div>
-
+ 
             <button
               type="submit"
               className="bg-secundary hover:bg-secundary/80 text-white font-medium rounded-full p-4 uppercase w-60"
@@ -130,7 +138,7 @@ const Trafego_pago = () => {
         </h2>
         <Carrossel />
       </section>
-
+ 
       <section className="container md:w-[1280px] p-4 mx-auto py-12 md:py-32 md:space-y-24 space-y-12">
         <div className="grid md:flex justify-between itens-center">
           <div className="container mx-auto">
@@ -141,7 +149,7 @@ const Trafego_pago = () => {
           </div>
           <div className="container mx-auto justify-end text-left md:text-right p-0">
             <p>
-              Não basta gerar conversas- é <br />preciso transformar interações<br /> 
+              Não basta gerar conversas- é <br />preciso transformar interações<br />
               em lucros.
             </p>
           </div>
@@ -166,20 +174,12 @@ const Trafego_pago = () => {
             <p>Direcione cada centavo <br/>para estratégias que <br/>realmente geram <br/>retorno.</p>
           </div>
         </div>
-        <div className="pt-12 container md:w-[1280px] grid md:flex">
-          <div className="">
-            <img
-              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/graph-1.png"
-              alt="graficos"
-              className="container mx-auto"
-            />
+        <div className="pt-12 container md:w-[1280px] grid md:flex items-center content-center">
+          <div>
+            <video src={Video2} autoPlay muted></video>
           </div>
-          <div className="">
-            <img
-              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/graph2.png"
-              alt="graficos"
-              className="container mx-auto"
-            />
+          <div>
+          <video src={Video1} autoPlay muted></video>
           </div>
         </div>
         <div className='text-center'>
@@ -190,9 +190,9 @@ const Trafego_pago = () => {
           FALE COM NOSSO ESPECIALISTA
         </a>
         </div>
-        
+       
       </section>
-
+ 
       <section
         style={{
           backgroundImage: `url(${BG_PURLE})`,
@@ -266,7 +266,7 @@ const Trafego_pago = () => {
           </div>
         </div>
       </section>
-
+ 
       <section className="container md:w-[1280px] p-4 mx-auto py-12 md:pt-32">
         <div className="container md:flex">
           <div className='container'>
@@ -283,42 +283,52 @@ const Trafego_pago = () => {
             sejam.
           </p>
           </div>
-          
+         
         </div>
-        <div className="container mx-auto md:w-[950px] py-8 md:pt-32">
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Lojas físicas:</b> Gere mais visitantes na sua loja ou venda pelo
-            Whatsapp.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Clínicas:</b> Atrair mais clientes para a sua clínica pelo seu
-            Whatsapp.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>E-commerce:</b> Lojas online de todos os nichos.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Petshop:</b> Faça seu petshop ser conhecido na região e aumente
-            as vendas.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Restaurantes:</b> Aumente o número de visitantes e/ou pedidos no
-            delivery.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Advogados:</b> Faça seu escritório ser conhecido e consiga ainda
-            + clientes.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            <b>Prestador de serviço:</b> Aumente a demanda dos seus serviços e
-            seja conhecido.
-          </p>
-          <p className="border-b p-4 md:px-6 text-lg border-black hover:bg-secundary hover:text-white hover:rounded-md">
-            Não viu seu nicho? Não tem problema! <b>Nós podemos te atender!</b>
-          </p>
+        <div className="container mx-auto md:w-[1280px] py-8 md:pt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 col-span-2 gap-4">
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/store-1.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>LOJA FÍSICA</h4>
+            <p>Gere mais visitantes na sua loja ou venda pelo Whatsapp.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/clinca.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>CLÍNICAS</h4>
+            <p>Atrair mais clientes para a sua clínica pelo seu Whatsapp.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/e-commerce.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>E-COMMERCE</h4>
+            <p>Lojas online de todos os nichos.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/petshop.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>PETSHOP</h4>
+            <p>Faça seu petshop ser conhecido na região e aumente as vendas.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/tray-1.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>RESTAURANTES</h4>
+            <p>Aumente o número de visitantes e/ou pedidos no delivery.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/auction-1.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>ADVOGADOS</h4>
+            <p>Faça seu escritório ser conhecido e consiga ainda + clientes.</p>
+          </div>
+          <div className='border-md p-8 text-center space-y-2 shadow-lg rounded-md'>
+            <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/customer-service-1.png" alt="loja fisica" className="w-auto h-20 mx-auto"/>
+            <h4>PRESTADORES DE SERVIÇOS</h4>
+            <p>Aumente a demanda dos seus serviços e seja conhecido.</p>
+          </div>
+          <div className='border-md bg-secundary p-8 text-center space-y-2 shadow-lg rounded-md text-white items-center content-center'>
+            <h4>NÃO VIU O SEU NICHO?</h4>
+            <p>Não tem problema! Nós podemos te atender,
+            clique aqui!</p>
+          </div>
         </div>
       </section>
-      <section className="content-center justify-center text-center md:pt-12 pb-24">
+      <section className="content-center justify-center text-center pb-24">
         <a
           href="#form"
           className="bg-secundary hover:bg-secundary/80 text-white text-center font-medium rounded-full p-4 uppercase content-center"
@@ -326,7 +336,7 @@ const Trafego_pago = () => {
           FALE COM UM ESPECIALISTA
         </a>
       </section>
-
+ 
       <section
         className="w-full"
         style={{
@@ -343,9 +353,9 @@ const Trafego_pago = () => {
       </section>
       <section className="container md:w-[1280px] p-4 mx-auto mb-60">
         <Carrossel_services />
-        
+       
       </section>
-
+ 
       <section className='container mx-auto text-center mb-12 md:mb-24'>
       <a
           href="#form"
@@ -354,7 +364,7 @@ const Trafego_pago = () => {
           FALE COM UM ESPECIALISTA
         </a>
       </section>
-
+ 
       <section className="container md:w-[1280px] p-4 mx-auto py-12 space-y-12">
         <div className="grid md:flex justify-between itens-center gap-4">
           <div className="container mx-auto">
@@ -396,5 +406,5 @@ const Trafego_pago = () => {
     </div>
   );
 };
-
+ 
 export default Trafego_pago;
