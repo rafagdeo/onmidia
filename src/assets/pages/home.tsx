@@ -9,6 +9,7 @@ import BG from '../images/bg-purple.webp';
 import { GoArrowUpRight } from 'react-icons/go';
 import Carrossel from '../components/carrossel__logos';
 import { TbWorld } from "react-icons/tb";
+import { Helmet } from "react-helmet-async";
 
 const home: React.FC = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -43,6 +44,10 @@ const home: React.FC = () => {
 
   return (
     <div>
+      <Helmet>
+                <title>Agência de Marketing – Estratégias digitais para impulsionar sua marca</title>
+                <meta name="description" content="A OnMídia Marketing 360º é especialista em estratégias digitais que geram resultados. Transforme sua presença online com produção audiovisual, sites, branding e muito mais." />
+                </Helmet>
       <ObserverProvider>
         <Header />
         <div

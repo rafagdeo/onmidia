@@ -100,6 +100,13 @@ const Trafego_pago = () => {
               className="bg-transparent text-black border-b-2 px-4 py-2 focus:outline-secundary"
               required
             />
+            <input
+              type="number"
+              name="cnpj"
+              placeholder="DIGITE O SEU CNPJ"
+              className="bg-transparent text-black border-b-2 px-4 py-2 focus:outline-secundary"
+              required
+            />
             <InputMask
               name="phone"
               type="tel"

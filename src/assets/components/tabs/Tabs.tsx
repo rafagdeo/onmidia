@@ -13,7 +13,7 @@ const Tabs: React.FC = () => {
   return (
     <div className="Tabs p-4 md:p-0">
       {/* Lista de Tabs */}
-      <ul className="nav flex gap-4 text-white">
+      <ul className="nav flex flex-col md:flex-row gap-4 text-white">
         {[
           { id: "tab1", label: "Eventos" },
           { id: "tab2", label: "Institucional" },
@@ -21,7 +21,7 @@ const Tabs: React.FC = () => {
         ].map((tab) => (
           <li
             key={tab.id}
-            className={`cursor-pointer px-4 py-2 transition ${
+            className={`cursor-pointer px-6 py-2 transition ${
               activeTab === tab.id ? "uppercase w-full bg-primary border border-primary text-center" : "uppercase w-full text-center border border-white hover:bg-primary hover:border-primary"
             }`}
             onClick={() => handleTabClick(tab.id)}

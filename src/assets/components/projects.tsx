@@ -1,31 +1,80 @@
 const projects = () => {
   return (
     <div>
-      <a href="/court-side" className="container md:w-[1280px] mx-auto p-4 grid gap-2">
+      <a
+        href="/cerveza-equus"
+        className="container md:w-[1280px] mx-auto p-4 grid gap-2"
+      >
         <div className="relative z-0 overflow-hidden rounded-lg">
           <img
-            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Projeto_CourtSide_TennisPrancheta-17.jpg"
+            src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Equus_imagem1.webp"
             alt=""
             className="w-full z-0 h-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
           />
         </div>
         <div className="grid gap-2">
-          <h3 className="text-xl pt-2 font-bold uppercase">Court Side</h3>
+          <h3 className="text-xl pt-2 font-bold uppercase">Cerveza Equus</h3>
           <div className="flex-wrap flex gap-2 items-center">
+          <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Strategy
+            </span>
             <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              UX Design
+            </span>
+          </div>
+        </div>
+      </a>
+      <div className="container md:w-[1280px] mx-auto grid-cols-1 grid md:grid-cols-2 gap-4">
+        <a href="/calin" className="p-4 flex-col rounded-lg flex gap-2">
+          <div className="relative overflow-hidden rounded-lg">
+            <img
+              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Prancheta-1.webp"
+              alt="bauny"
+              className="h-full md:h-[338px] w-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="grid gap-2">
+            <h3 className="text-xl pt-2 font-bold uppercase">
+              Câlin
+            </h3>
+            <div className="flex-wrap flex gap-2 items-center">
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Strategy
+            </span>
+            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              Branding
+            </span>
+            </div>
+          </div>
+        </a>
+        <a href="/court-side" className="p-4 flex-col rounded-lg flex gap-2">
+          <div className="relative overflow-hidden rounded-lg">
+            <img
+              src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Projeto_CourtSide_TennisPrancheta-17.jpg"
+              alt="rural"
+              className="h-full md:h-[338px] w-full object-cover rounded-lg transition-transform duration-500 hover:scale-110"
+            />
+          </div>
+          <div className="grid gap-2">
+            <h3 className="text-xl pt-2 font-bold uppercase">Court Side</h3>
+            <div className="flex-wrap flex gap-2 items-center">
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
+                Branding
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Design
+                Design
               </span>
+            </div>
           </div>
-        </div>
-      </a> 
-      <div className="container md:w-[1280px] mx-auto grid-cols-1 grid md:grid-cols-2 gap-4">
-      <a href="/bauny" className="p-4 flex-col rounded-lg flex gap-2">
+        </a>
+        
+        <a href="/bauny" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative overflow-hidden rounded-lg">
             <img
               src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/01/IMG_0236.jpg"
@@ -34,16 +83,18 @@ const projects = () => {
             />
           </div>
           <div className="grid gap-2">
-            <h3 className="text-xl pt-2 font-bold uppercase">Bauny Cosméticos</h3>
+            <h3 className="text-xl pt-2 font-bold uppercase">
+              Bauny Cosméticos
+            </h3>
             <div className="flex-wrap flex gap-2 items-center">
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Aftermovie
+                Aftermovie
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Eventos
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Audiovisual
+                Audiovisual
               </span>
             </div>
           </div>
@@ -63,17 +114,17 @@ const projects = () => {
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
+                Branding
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Development
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              UX Design
+                UX Design
               </span>
             </div>
           </div>
-        </a>
+        </a>        
         <a href="/synconsult" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative z-0 overflow-hidden rounded-lg">
             <img
@@ -89,7 +140,7 @@ const projects = () => {
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
+                Branding
               </span>
             </div>
           </div>
@@ -105,24 +156,22 @@ const projects = () => {
           <div className="grid gap-2">
             <h3 className="text-xl pt-2 font-bold uppercase">By Solution</h3>
             <div className="flex-wrap flex gap-2 items-center">
-            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Strategy
-            </span>
-            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-            Branding
-            </span>
-            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-            Developmet
-            </span>
-            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-            UX Design
-            </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+                Strategy
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+                Branding
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+                Developmet
+              </span>
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+                UX Design
+              </span>
             </div>
           </div>
         </a>
-        
-        
-        
+
         <a href="/ruralsummit" className="p-4 flex-col rounded-lg flex gap-2">
           <div className="relative overflow-hidden rounded-lg">
             <img
@@ -132,19 +181,21 @@ const projects = () => {
             />
           </div>
           <div className="grid gap-2">
-            <h3 className="text-xl pt-2 font-bold uppercase">Rural Summit 2024</h3>
+            <h3 className="text-xl pt-2 font-bold uppercase">
+              Rural Summit 2024
+            </h3>
             <div className="flex-wrap flex gap-2 items-center">
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Aftermovie
+                Aftermovie
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Eventos
+                Eventos
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Audiovisual
+                Audiovisual
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
+                Branding
               </span>
             </div>
           </div>
@@ -160,17 +211,17 @@ const projects = () => {
           <div className="grid gap-2">
             <h3 className="text-xl pt-2 font-bold uppercase">Giter</h3>
             <div className="flex-wrap flex gap-2 items-center">
-            <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
+              <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
                 Strategy
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Naming
+                Naming
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Branding
+                Branding
               </span>
               <span className="px-4 py-1 rounded-full text-sm font-light border hover:bg-gray-300">
-              Website
+                Website
               </span>
             </div>
           </div>

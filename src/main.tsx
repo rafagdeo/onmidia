@@ -17,6 +17,9 @@ import Politica_de_privacidade from './assets/pages/Politica_de_privacidade';
 import Termos_e_Condicoes from './assets/pages/Termos_e_Condicoes';
 import Trafego_pago from './assets/pages/Trafego_pago';
 import Audiovisual from './assets/pages/Audiovisual';
+import Calin from './assets/cases/Calin';
+import Equus from './assets/cases/Equus';
+import Onpag from './assets/cases/onpag';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -32,6 +35,9 @@ const router = createBrowserRouter([
   { path: "/synconsult", element: <SynConsult /> },
   { path: "/giter", element: <Giter /> },
   { path: "/court-side", element: <CourtSide /> },
+  { path: "/calin", element: <Calin /> },
+  { path: "/cerveza-equus", element: <Equus /> },
+  { path: "/onpag", element: <Onpag /> },
   { path: "/politica-de-privacidade", element: <Politica_de_privacidade /> },
   { path: "/termos-e-condicoes", element: <Termos_e_Condicoes /> }
 ]);

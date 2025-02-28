@@ -8,7 +8,7 @@ const Eventos = () => {
           <iframe src="https://www.youtube.com/embed/uXNSN1WLqGk?si=9JsFQPWrd0E14O3J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" className="w-full h-[400px] md:h-[800px]" allowfullscreen></iframe>
         </div>
         <div className="py-8 flex flex-col gap-4">
-          <h2 className="font-bold uppercase text-white text-2xl md:text-5xl">Ivestor Day</h2>
+          <h2 className="font-bold uppercase text-white text-2xl md:text-5xl">Investor Day</h2>
           <iframe src="https://www.youtube.com/embed/EX98RScf7bU?si=A58TLlBgga9W5ZJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" className="w-full h-[400px] md:h-[800px]" allowfullscreen></iframe>
         </div>
         <div className="py-8 flex flex-col gap-4">

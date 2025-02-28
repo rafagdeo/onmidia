@@ -148,8 +148,16 @@ const Footer = () => {
               required
             />
             <input
+              name="email"
               type="email"
               placeholder="E-mail"
+              className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
+              required
+            />
+            <input
+              name="cnpj"
+              type="number"
+              placeholder="CNPJ"
               className="bg-transparent border border-gray-500 px-6 py-2 text-secundary focus:border-secundary focus:outline-none"
               required
             />
