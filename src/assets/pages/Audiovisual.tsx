@@ -336,14 +336,6 @@ const Audiovisual = () => {
                 className="bg-transparent border border-white px-6 py-2 text-white focus:border-white focus:outline-none placeholder:text-white"
                 required
               />
-              <input
-                name="lastname"
-                type="text"
-                placeholder="Qual o nome da sua empresa?"
-                className="bg-transparent border border-white px-6 py-2 text-white focus:border-white focus:outline-none placeholder:text-white"
-                required
-              />
-              
               <textarea
                 name="message"
                 placeholder="Conte-nos um pouco sobre o seu projeto? "
