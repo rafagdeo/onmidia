@@ -20,6 +20,7 @@ import Audiovisual from './assets/pages/Audiovisual';
 import Calin from './assets/cases/Calin';
 import Equus from './assets/cases/Equus';
 import Onpag from './assets/cases/onpag';
+import DPO from './assets/pages/DPO';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -39,7 +40,8 @@ const router = createBrowserRouter([
   { path: "/cerveza-equus", element: <Equus /> },
   { path: "/onpag", element: <Onpag /> },
   { path: "/politica-de-privacidade", element: <Politica_de_privacidade /> },
-  { path: "/termos-e-condicoes", element: <Termos_e_Condicoes /> }
+  { path: "/termos-e-condicoes", element: <Termos_e_Condicoes /> },
+  { path: "/encarregado-de-dados-dpo", element: <DPO /> }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

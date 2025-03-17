@@ -323,7 +323,7 @@ const Audiovisual = () => {
                 required
               />
               <input
-                name="lastname"
+                name="empresa"
                 type="text"
                 placeholder="Qual o nome da sua empresa?"
                 className="bg-transparent border border-white px-6 py-2 text-white focus:border-white focus:outline-none placeholder:text-white"
@@ -338,7 +338,7 @@ const Audiovisual = () => {
               />
               <textarea
                 name="message"
-                placeholder="Conte-nos um pouco sobre o seu projeto? "
+                placeholder="Conte-nos um pouco sobre o seu projeto?"
                 className="bg-transparent border border-white px-6 py-2 text-white focus:border-white focus:outline-none placeholder:text-white"
                 required
               ></textarea>

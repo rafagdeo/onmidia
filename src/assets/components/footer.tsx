@@ -85,7 +85,7 @@ const Footer = () => {
           
         </div>
         <div>
-          <ul className="md:ml-0 space-y-2 grid lg:ml-32">
+          <ul className="md:ml-0 space-y-2 grid lg:ml-24">
             <a
               href="/"
               className="hover:text-secundary hover:underline hover:pl-4"
@@ -119,6 +119,12 @@ const Footer = () => {
               className="hover:text-secundary hover:underline hover:pl-4"
             >
               <li>Termos e condições</li>
+            </a>
+            <a
+              href="/encarregado-de-dados-dpo"
+              className="hover:text-secundary hover:underline hover:pl-4"
+            >
+              <li>Encarregado de dados - DPO</li>
             </a>
           </ul>
         </div>
