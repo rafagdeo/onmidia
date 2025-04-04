@@ -4,6 +4,6 @@
 
 Para o projeto estou usando React + TypeScript e para estilizar Tailwind css
 
-<a href="#">
-  <img src="https://onmidiamkt.com.br/wp-content/uploads/2023/10/cropped-onmidia-logo.png" alt="logo__onmidia" className='h-[30px]'/>
+<a href="https://onmidiamkt.com.br">
+  <img src="https://cdn.onmidiamkt.com.br/wp-content/uploads/2025/02/Logo_OnMidia_Color_V1.png" alt="logo__onmidia" className='h-[30px]'/>
 </a>
