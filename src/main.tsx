@@ -19,8 +19,9 @@ import Trafego_pago from './assets/pages/Trafego_pago';
 import Audiovisual from './assets/pages/Audiovisual';
 import Calin from './assets/cases/Calin';
 import Equus from './assets/cases/Equus';
-import Onpag from './assets/cases/onpag';
+import Onpag from './assets/cases/Onpag';
 import DPO from './assets/pages/DPO';
+import Site from './assets/pages/Site';
 
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
@@ -41,7 +42,8 @@ const router = createBrowserRouter([
   { path: "/onpag", element: <Onpag /> },
   { path: "/politica-de-privacidade", element: <Politica_de_privacidade /> },
   { path: "/termos-e-condicoes", element: <Termos_e_Condicoes /> },
-  { path: "/encarregado-de-dados-dpo", element: <DPO /> }
+  { path: "/encarregado-de-dados-dpo", element: <DPO /> },
+  { path: "/site", element: <Site />}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

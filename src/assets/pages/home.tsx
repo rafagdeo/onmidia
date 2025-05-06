@@ -73,7 +73,7 @@ const home: React.FC = () => {
                 .
               </p>
             </div>
-            <div className="grid  text-right h-28 md:h-52 justify-end content-end">
+            <div className="grid text-right h-28 md:h-52 justify-end content-end">
               <p>® since 2021</p>
               <span className="uppercase font-bold">BRAZIL, São Paulo</span>
               <span>{dateTime}</span>
